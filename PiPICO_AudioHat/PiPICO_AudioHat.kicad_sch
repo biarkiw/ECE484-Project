@@ -3256,6 +3256,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 115.57) (xy 196.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1630a9f6-f1c6-4ed9-9409-d5a660a23cc8")
+	)
+	(wire
+		(pts
 			(xy 114.3 165.1) (xy 127 165.1)
 		)
 		(stroke
@@ -3326,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 50.8) (xy 241.3 91.44)
+			(xy 241.3 50.8) (xy 241.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3386,6 +3396,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 87.63) (xy 237.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3954b418-ef7f-4899-85ae-061ea693ffff")
+	)
+	(wire
+		(pts
 			(xy 266.7 101.6) (xy 266.7 105.41)
 		)
 		(stroke
@@ -3403,6 +3423,16 @@
 			(type default)
 		)
 		(uuid "3e3e8b94-8ac8-4f4d-befd-5cb6399738e5")
+	)
+	(wire
+		(pts
+			(xy 219.71 87.63) (xy 237.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e576c3d-03c8-4716-89a1-ca50e3a3c43c")
 	)
 	(wire
 		(pts
@@ -3456,16 +3486,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 142.24 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46f23970-6b0d-470b-835d-53c86fd89159")
-	)
-	(wire
-		(pts
 			(xy 241.3 152.4) (xy 241.3 157.48)
 		)
 		(stroke
@@ -3476,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 190.5 104.14)
+			(xy 223.52 102.87) (xy 223.52 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 93.98) (xy 187.96 93.98)
+			(xy 247.65 95.25) (xy 219.71 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3513,6 +3533,16 @@
 			(type default)
 		)
 		(uuid "4f4adae1-c59b-406d-9157-69997e216041")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 173.99 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51234fd2-b860-4858-b0ee-7da85c6040fe")
 	)
 	(wire
 		(pts
@@ -3536,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 91.44) (xy 187.96 91.44)
+			(xy 241.3 92.71) (xy 219.71 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3626,6 +3656,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 82.55) (xy 173.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6743a362-4bc4-4582-8f40-825ec8908509")
+	)
+	(wire
+		(pts
 			(xy 114.3 157.48) (xy 114.3 165.1)
 		)
 		(stroke
@@ -3653,16 +3693,6 @@
 			(type default)
 		)
 		(uuid "6f21aab0-7f3c-4931-bbda-407a2f9d61c1")
-	)
-	(wire
-		(pts
-			(xy 133.35 76.2) (xy 142.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7458f150-c4a4-4a5b-b091-0903215b4832")
 	)
 	(wire
 		(pts
@@ -3696,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 96.52) (xy 247.65 127)
+			(xy 247.65 97.79) (xy 247.65 127)
 		)
 		(stroke
 			(width 0)
@@ -3763,6 +3793,16 @@
 			(type default)
 		)
 		(uuid "a0771e51-3975-42de-b440-649e6d5b935f")
+	)
+	(wire
+		(pts
+			(xy 173.99 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37e1073-6fd3-4073-b1b6-7c5d2c6222c2")
 	)
 	(wire
 		(pts
@@ -3836,7 +3876,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 247.65 96.52)
+			(xy 219.71 97.79) (xy 247.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3916,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 247.65 93.98)
+			(xy 247.65 88.9) (xy 247.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3936,13 +3976,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 142.24 73.66)
+			(xy 121.92 80.01) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfbcd508-a55d-4616-b723-03565bcd03f5")
+		(uuid "cd32fb66-daba-4c0a-9965-b06579d7f535")
 	)
 	(wire
 		(pts
@@ -3976,23 +4016,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 187.96 101.6)
+			(xy 223.52 102.87) (xy 219.71 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dafd8083-dd7a-4faa-9391-e08c642f7d4c")
-	)
-	(wire
-		(pts
-			(xy 165.1 114.3) (xy 165.1 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc6574c7-f285-4be7-8421-7ce66e176802")
 	)
 	(wire
 		(pts
@@ -4066,6 +4096,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 38.1) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e933ef79-a23b-4685-bac6-e34a2b667b15")
+	)
+	(wire
+		(pts
 			(xy 152.4 157.48) (xy 152.4 165.1)
 		)
 		(stroke
@@ -4103,16 +4143,6 @@
 			(type default)
 		)
 		(uuid "f13df5a0-00a5-4549-801f-1eb6b14e780c")
-	)
-	(wire
-		(pts
-			(xy 133.35 78.74) (xy 142.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3154cc6-9337-4d5a-91ca-3cd74a836e49")
 	)
 	(wire
 		(pts
@@ -4155,7 +4185,7 @@
 		(uuid "fcb4f33c-1d66-49ac-9050-2ab9a04a88ea")
 	)
 	(label "SCK"
-		(at 133.35 81.28 0)
+		(at 121.92 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4165,7 +4195,7 @@
 		(uuid "87061a4e-204b-4bc9-bab0-3d67a90e8878")
 	)
 	(label "DOUT"
-		(at 133.35 77.47 0)
+		(at 121.92 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,7 +4205,7 @@
 		(uuid "a20ebada-7b6e-4c6e-8319-09c3fc8fe7c7")
 	)
 	(label "DIN"
-		(at 133.35 73.66 0)
+		(at 121.92 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5236,6 +5266,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 191.77 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "380b8f4b-c3e1-482e-8483-87ec15e10dd1")
+		(property "Reference" "#PWR032"
+			(at 191.77 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 191.77 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 191.77 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "278adc01-d988-4361-8ece-c9acf4e03ae1")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 133.35 172.72 0)
 		(unit 1)
@@ -6029,7 +6137,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 165.1 78.74 0)
+		(at 196.85 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6040,7 +6148,7 @@
 		(fields_autoplaced yes)
 		(uuid "766712b7-c4fa-4acb-98ca-7de5cf0866ec")
 		(property "Reference" "A1"
-			(at 167.2433 113.03 0)
+			(at 198.9933 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6051,7 +6159,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico"
-			(at 167.2433 115.57 0)
+			(at 198.9933 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6062,7 +6170,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-			(at 165.1 125.73 0)
+			(at 196.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,7 +6181,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 165.1 128.27 0)
+			(at 196.85 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6084,7 +6192,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 165.1 130.81 0)
+			(at 196.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6225,7 +6333,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 190.5 104.14 0)
+		(at 223.52 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6236,7 +6344,7 @@
 		(fields_autoplaced yes)
 		(uuid "94d41c10-ac30-441c-866a-081b810494e9")
 		(property "Reference" "#PWR011"
-			(at 190.5 110.49 0)
+			(at 223.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,7 +6355,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 190.5 109.22 0)
+			(at 223.52 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6257,7 +6365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 104.14 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6268,7 +6376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 104.14 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 190.5 104.14 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6951,7 +7059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 120.65 0)
+		(at 196.85 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6962,7 +7070,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce3878d3-a0e9-43f3-8dff-ce223c817424")
 		(property "Reference" "#PWR010"
-			(at 165.1 127 0)
+			(at 196.85 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,7 +7081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 125.73 0)
+			(at 196.85 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6983,7 +7091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 120.65 0)
+			(at 196.85 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +7102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 120.65 0)
+			(at 196.85 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,7 +7113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 120.65 0)
+			(at 196.85 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,6 +7901,84 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 237.49 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e5a03e-01ce-48c8-b554-4c56fc8f3423")
+		(property "Reference" "#PWR033"
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 237.49 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 237.49 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cdd95f2-7d48-4843-886f-22c09782e8b6")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
