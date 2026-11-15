@@ -8428,7 +8428,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 167.64)
+		(at 80.01 167.64)
 		(size 26.67 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8444,7 +8444,7 @@
 		)
 		(uuid "00392a00-2413-4998-abe8-751dd2c3241f")
 		(property "Sheetname" "DAC"
-			(at 58.42 166.9284 0)
+			(at 80.01 166.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8455,7 +8455,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 58.42 192.3546 0)
+			(at 80.01 192.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8509,6 +8509,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC_CH0" input
+			(at 44.45 184.15 0)
+			(uuid "4c3e9323-edcb-4870-ba74-fa8f965aafd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH1" input
+			(at 44.45 186.69 0)
+			(uuid "6945ea39-8a2f-46c6-a787-2bb6f7c1afca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CLOCK" input
+			(at 44.45 177.8 0)
+			(uuid "39a14778-7a08-4ae6-a486-20ea5a103289")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_LRCK" bidirectional
+			(at 44.45 172.72 0)
+			(uuid "5f6887f9-21cc-4197-9571-9ad15f49a187")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_DOUT" output
+			(at 44.45 170.18 0)
+			(uuid "b741ce86-c675-4511-97d6-229b471fa7b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_BCK" bidirectional
+			(at 44.45 175.26 0)
+			(uuid "b0b5aae6-fee2-4cf9-8e70-fce0d968a415")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH2" input
+			(at 44.45 189.23 0)
+			(uuid "6e14ef23-33d3-4cad-abc2-c6a2f1b9de6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

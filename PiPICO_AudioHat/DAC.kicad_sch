@@ -1751,7 +1751,7 @@
 		(uuid "9e7fa03c-593b-4cae-9d45-051c56f7602e")
 	)
 	(junction
-		(at 77.47 86.36)
+		(at 39.37 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac2bdb11-4203-43a8-a092-0cd1350a7890")
@@ -1844,7 +1844,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 82.55 86.36)
+			(xy 35.56 88.9) (xy 44.45 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +1924,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 77.47 91.44)
+			(xy 39.37 88.9) (xy 39.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2084,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 86.36) (xy 68.58 86.36)
+			(xy 25.4 88.9) (xy 30.48 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2154,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 77.47 91.44)
+			(xy 38.1 93.98) (xy 39.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2164,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 91.44) (xy 63.5 95.25)
+			(xy 25.4 93.98) (xy 25.4 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2274,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 63.5 86.36)
+			(xy 25.4 86.36) (xy 25.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 63.5 91.44)
+			(xy 27.94 93.98) (xy 25.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2713,7 +2713,7 @@
 		(uuid "3e95155f-c63b-4552-90a4-ef17ba6c0a92")
 	)
 	(label "Mute"
-		(at 82.55 86.36 180)
+		(at 44.45 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2731,6 +2731,50 @@
 			(justify left bottom)
 		)
 		(uuid "490ee828-88ff-48b4-a9b1-6aa6ddb78c83")
+	)
+	(hierarchical_label "DAC_BCK"
+		(shape input)
+		(at 101.6 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5237f2c7-ca45-4e4e-a439-740d2af8f0fc")
+	)
+	(hierarchical_label "DAC_SCK"
+		(shape input)
+		(at 101.6 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a383e10d-e15a-4a81-9900-63029f60e949")
+	)
+	(hierarchical_label "DAC_DIN"
+		(shape input)
+		(at 101.6 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb9a697f-e96c-4990-83c5-80123c30abf6")
+	)
+	(hierarchical_label "DAC_LRCK"
+		(shape input)
+		(at 101.6 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e27a7986-6fbb-4671-b91c-eb1e09b5a5cb")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3054,7 +3098,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 63.5 83.82 0)
+		(at 25.4 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3065,7 +3109,7 @@
 		(fields_autoplaced yes)
 		(uuid "249c3aea-dcf0-4afa-8452-e6cc0b2d1127")
 		(property "Reference" "#PWR054"
-			(at 63.5 87.63 0)
+			(at 25.4 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3120,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 63.5 78.74 0)
+			(at 25.4 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3086,7 +3130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 83.82 0)
+			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3097,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 83.82 0)
+			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 63.5 83.82 0)
+			(at 25.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3370,7 +3414,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 95.25 0)
+		(at 25.4 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3381,7 +3425,7 @@
 		(fields_autoplaced yes)
 		(uuid "42571c2c-c6f0-47d1-a85f-890a1486397f")
 		(property "Reference" "#PWR055"
-			(at 63.5 101.6 0)
+			(at 25.4 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +3436,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 100.33 0)
+			(at 25.4 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3402,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 95.25 0)
+			(at 25.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,7 +3457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 95.25 0)
+			(at 25.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +3468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 95.25 0)
+			(at 25.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,7 +4992,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 71.12 86.36 90)
+		(at 33.02 88.9 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4959,7 +5003,7 @@
 		(dnp no)
 		(uuid "d784f31f-4132-43a0-9f8a-cbaa24787761")
 		(property "Reference" "R16"
-			(at 71.12 81.28 90)
+			(at 33.02 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4969,7 +5013,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 71.12 83.82 90)
+			(at 33.02 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4979,7 +5023,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 71.12 86.36 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4990,7 +5034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 86.36 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5045,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 71.12 86.36 0)
+			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5346,7 +5390,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 71.12 91.44 0)
+		(at 33.02 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5356,7 +5400,7 @@
 		(dnp no)
 		(uuid "fd1cc055-17fb-4e96-aa86-87114c2f3026")
 		(property "Reference" "SW5"
-			(at 70.866 93.218 0)
+			(at 32.766 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5366,7 +5410,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 70.866 95.758 0)
+			(at 32.766 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5376,7 +5420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 91.44 0)
+			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5387,7 +5431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 91.44 0)
+			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5442,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 71.12 91.44 0)
+			(at 33.02 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
