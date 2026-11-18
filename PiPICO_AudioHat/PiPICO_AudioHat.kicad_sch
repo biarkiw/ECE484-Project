@@ -4033,7 +4033,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "To Do:\n- Finish adding footprints \n -Confirm bom\n"
+	(text "To Do:\n- Size R26\n- Finish adding footprints \n	- SPST\n		- Push Buttons\n		- Slide Switches\n	- Caps\n	- USB-C 6p Power\n	- RCA Connectors\n\n -Confirm bom\n"
 		(exclude_from_sim no)
 		(at 257.048 23.622 0)
 		(effects
@@ -4212,6 +4212,12 @@
 		(uuid "a6d19161-f3d4-49f6-a868-4c887372c71c")
 	)
 	(junction
+		(at 99.06 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8c74545-c72d-4ab0-a49f-11fea57a4cc3")
+	)
+	(junction
 		(at 63.5 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4254,10 +4260,16 @@
 		(uuid "f50ba8bf-360f-4f2e-a236-ad03a689f811")
 	)
 	(junction
-		(at 100.33 43.18)
+		(at 99.06 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f81dffce-c190-45fe-8c8a-8530029fae20")
+	)
+	(junction
+		(at 99.06 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb6490be-a142-447c-8a9a-c67b92bb9e30")
 	)
 	(junction
 		(at 83.82 124.46)
@@ -4424,6 +4436,16 @@
 			(type default)
 		)
 		(uuid "16009806-3cbb-4996-9707-af4b5301baf0")
+	)
+	(wire
+		(pts
+			(xy 99.06 33.02) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1654dc9f-6f1b-430e-9c89-50b8dcbf383e")
 	)
 	(wire
 		(pts
@@ -4977,6 +4999,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 33.02) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f7dd28-c394-4177-a161-64677fc1113e")
+	)
+	(wire
+		(pts
 			(xy 64.77 43.18) (xy 64.77 46.99)
 		)
 		(stroke
@@ -5104,16 +5136,6 @@
 			(type default)
 		)
 		(uuid "61b55891-47d2-45f7-a723-c38b16976468")
-	)
-	(wire
-		(pts
-			(xy 100.33 43.18) (xy 109.22 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6213813c-1c1d-454a-8a9d-09ef7d8ffc82")
 	)
 	(wire
 		(pts
@@ -5307,7 +5329,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 100.33 43.18)
+			(xy 88.9 43.18) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5539,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 40.64) (xy 100.33 43.18)
+			(xy 99.06 40.64) (xy 99.06 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5894,16 +5916,6 @@
 			(type default)
 		)
 		(uuid "b99e3714-1c46-4ac8-8d2c-fbc9f1f94233")
-	)
-	(wire
-		(pts
-			(xy 100.33 33.02) (xy 101.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca43026-28e8-4d81-9dd9-d5bece23d7f2")
 	)
 	(wire
 		(pts
@@ -6287,7 +6299,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 33.02) (xy 100.33 35.56)
+			(xy 99.06 33.02) (xy 99.06 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6718,7 +6730,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PT01_D115D_B503:TRIM_PT01-D115D-B503"
 			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8052,7 +8064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PT01_D115D_B503:TRIM_PT01-D115D-B503"
 			(at 266.7 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12228,7 +12240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PT01_D115D_B503:TRIM_PT01-D115D-B503"
 			(at 266.7 127 0)
 			(hide yes)
 			(show_name no)
@@ -12869,7 +12881,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 100.33 38.1 0)
+		(at 99.06 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12879,7 +12891,7 @@
 		(dnp no)
 		(uuid "f321098b-32b8-4fce-877e-5b8f62867542")
 		(property "Reference" "R11"
-			(at 101.854 39.624 0)
+			(at 100.584 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12890,7 +12902,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 101.6 41.656 0)
+			(at 100.33 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12901,7 +12913,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 100.33 38.1 0)
+			(at 99.06 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,7 +12924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 38.1 0)
+			(at 99.06 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12923,7 +12935,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 100.33 38.1 0)
+			(at 99.06 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
