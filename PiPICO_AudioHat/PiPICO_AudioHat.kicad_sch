@@ -3312,7 +3312,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "To Do:\n- Wire A/K on LCD(U4)\n- Wire Pico\n	-ADC\n	-DAC\n	-LCD\n	-Buttons\n"
+	(text "To Do:\n- Wire A/K on LCD(U4)\n- Wire Pico\n	-ADC\n	-DAC\n	-LCD\n	-Buttons\n- Finish adding footprints \n -Confirm bom\n"
 		(exclude_from_sim no)
 		(at 158.75 113.03 0)
 		(effects
@@ -5092,16 +5092,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 20.32) (xy 191.77 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e933ef79-a23b-4685-bac6-e34a2b667b15")
-	)
-	(wire
-		(pts
 			(xy 101.6 176.53) (xy 101.6 184.15)
 		)
 		(stroke
@@ -6726,84 +6716,6 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 191.77 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "380b8f4b-c3e1-482e-8483-87ec15e10dd1")
-		(property "Reference" "#PWR032"
-			(at 191.77 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 191.77 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 191.77 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "278adc01-d988-4361-8ece-c9acf4e03ae1")
-		)
-		(instances
-			(project "PiPICO_AudioHat"
-				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)

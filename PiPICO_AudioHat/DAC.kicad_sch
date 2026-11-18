@@ -2799,7 +2799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2bF"
+		(property "Value" "2.2nF"
 			(at 180.34 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,7 +3591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2bF"
+		(property "Value" "2.2nF"
 			(at 167.64 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
