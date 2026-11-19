@@ -4866,7 +4866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JS102011SAQN:SW_JS102011SAQN"
 			(at 119.38 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9815,7 +9815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JS102011SAQN:SW_JS102011SAQN"
 			(at 55.88 152.4 0)
 			(hide yes)
 			(show_name no)

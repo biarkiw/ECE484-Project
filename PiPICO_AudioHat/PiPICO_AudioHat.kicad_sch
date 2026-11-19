@@ -4033,7 +4033,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "To Do:\n- Size R26\n- Finish adding footprints \n	- SPST\n		- Push Buttons\n		- Slide Switches\n -Confirm bom\n"
+	(text "To Do:\n- Size R26\n -Confirm bom\n"
 		(exclude_from_sim no)
 		(at 246.38 13.97 0)
 		(effects
@@ -8830,7 +8830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL3305BF260QG:SW_TL3305BF260QG"
 			(at 71.12 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9948,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL3305BF260QG:SW_TL3305BF260QG"
 			(at 71.12 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10223,7 +10223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL3305BF260QG:SW_TL3305BF260QG"
 			(at 33.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11893,7 +11893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "500SSP1S1M6QEA:SW_500SSP1S1M6QEA"
 			(at 64.77 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12509,7 +12509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL3305BF260QG:SW_TL3305BF260QG"
 			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13063,7 +13063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL3305BF260QG:SW_TL3305BF260QG"
 			(at 166.37 97.79 0)
 			(hide yes)
 			(show_name no)

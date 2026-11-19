@@ -1,2 +1,2 @@
 # ECE484-Project
-Project files for the ECE 484 project, allong with the hardware desgin files for the RPi Pico DSP Hat
+Project files for the ECE 484 project, along with the hardware design files for the RPi Pico DSP Hat
