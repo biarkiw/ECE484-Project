@@ -1,4 +1,7 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "PT01_D115D_B503") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/PT01_D115D_B503") (options "") (descr ""))
+	(lib (name "RCJ_2223") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/RCJ_2223") (options "") (descr ""))
+	(lib (name "MPZ1608S601ATA00") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/MPZ1608S601ATA00") (options "") (descr ""))
+	(lib (name "UJC-H-G-SMT-2-P6-TR") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/UJC-H-G-SMT-2-P6-TR") (options "") (descr ""))
 )

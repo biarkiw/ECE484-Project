@@ -4033,15 +4033,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "To Do:\n- Size R26\n- Finish adding footprints \n	- SPST\n		- Push Buttons\n		- Slide Switches\n	- Caps\n	- USB-C 6p Power\n	- RCA Connectors\n\n -Confirm bom\n"
+	(text "To Do:\n- Size R26\n- Finish adding footprints \n	- SPST\n		- Push Buttons\n		- Slide Switches\n -Confirm bom\n"
 		(exclude_from_sim no)
-		(at 257.048 23.622 0)
+		(at 246.38 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "2bf3ea69-0003-4311-8e67-7f26a8826a1c")
 	)
@@ -4156,12 +4156,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "857cd6d0-c280-4bc0-b9de-637f628bf723")
-	)
-	(junction
-		(at 223.52 147.2151)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89bc67b7-b708-4517-b1ad-780cc2cebae3")
 	)
 	(junction
 		(at 59.69 54.61)
@@ -4306,16 +4300,6 @@
 			(type default)
 		)
 		(uuid "06cab078-5634-4990-8019-e76cc48344cb")
-	)
-	(wire
-		(pts
-			(xy 223.52 147.2151) (xy 223.52 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08caaa81-bba6-44a7-b8da-c817d1eb6bb3")
 	)
 	(wire
 		(pts
@@ -4889,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 143.51) (xy 223.52 147.2151)
+			(xy 223.52 143.51) (xy 223.52 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5556,6 +5540,16 @@
 			(type default)
 		)
 		(uuid "931b5b05-b893-4585-9c49-a52c7f6196cd")
+	)
+	(wire
+		(pts
+			(xy 154.94 128.27) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93628391-8c03-4c4d-a6fc-a29240178bc5")
 	)
 	(wire
 		(pts
@@ -6619,7 +6613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 147.2151 0)
+		(at 223.52 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6630,7 +6624,7 @@
 		(fields_autoplaced yes)
 		(uuid "0153b6a4-70b4-4f96-81a5-a93eda3f8555")
 		(property "Reference" "#PWR078"
-			(at 223.52 153.5651 0)
+			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6641,7 +6635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 152.2951 0)
+			(at 223.52 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6651,7 +6645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 147.2151 0)
+			(at 223.52 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +6656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 147.2151 0)
+			(at 223.52 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +6667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 147.2151 0)
+			(at 223.52 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7239,7 +7233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "MPZ1608S601ATA00"
 			(at 27.94 154.9018 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7250,7 +7244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MPZ1608S601ATA00:IND_1608_TDK-M"
 			(at 23.622 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -7472,7 +7466,6 @@
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 231.14 128.27 90)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7480,7 +7473,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b5a0e9d-6cd7-47f6-859f-3eb50d598660")
 		(property "Reference" "R25"
 			(at 231.14 133.35 90)
@@ -7492,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0R"
 			(at 231.14 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,86 +7537,6 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 158.75 165.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20cc4b24-e586-4123-93a4-945914f745c9")
-		(property "Reference" "FB4"
-			(at 158.7119 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 158.7119 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 166.878 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 158.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cda8b6ad-40c0-4025-b0dc-4cb42b9e85af")
-		)
-		(pin "2"
-			(uuid "e5812969-c893-4e14-b9bb-2c1204cad8d3")
-		)
-		(instances
-			(project "PiPICO_AudioHat"
-				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -8615,6 +8527,85 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 146.05 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "429ba8b8-1556-4f7d-8f77-fd4f711cf3ef")
+		(property "Reference" "FB3"
+			(at 146.0119 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPZ1608S601ATA00"
+			(at 142.24 161.798 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MPZ1608S601ATA00:IND_1608_TDK-M"
+			(at 146.05 166.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 146.05 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05dbdeb6-e591-4e8e-a4fc-38e549aaf6a6")
+		)
+		(pin "2"
+			(uuid "53a657d1-cfaa-46f1-938a-e9b7c5ea6279")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -10515,6 +10506,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 158.75 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81a2afe0-1a42-4083-88a4-020759b6335e")
+		(property "Reference" "FB4"
+			(at 158.7119 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MPZ1608S601ATA00"
+			(at 162.56 161.798 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MPZ1608S601ATA00:IND_1608_TDK-M"
+			(at 158.75 166.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 158.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa070865-618b-4627-99ec-7120be90fd2c")
+		)
+		(pin "2"
+			(uuid "cb7653d1-6254-44ad-a750-eb256ef958c3")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VP")
 		(at 266.7 44.45 0)
 		(unit 1)
@@ -10995,86 +11065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 146.05 165.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab4b58ae-4481-44f6-8b6a-7b5f2a0cd07f")
-		(property "Reference" "FB3"
-			(at 146.0119 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 146.0119 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 166.878 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 146.05 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "690a79d9-eb99-4892-9bf0-a66e13cf77bc")
-		)
-		(pin "2"
-			(uuid "939fdfb1-b569-4e70-8b82-6fbc3c2bd39a")
-		)
-		(instances
-			(project "PiPICO_AudioHat"
-				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 254 95.25 0)
 		(unit 1)
@@ -11178,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "MPZ1608S601ATA00"
 			(at 35.5219 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11188,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MPZ1608S601ATA00:IND_1608_TDK-M"
 			(at 35.56 166.878 90)
 			(hide yes)
 			(show_name no)
@@ -12061,7 +12051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UJC-H-G-SMT-2-P6-TR:SAMESKY_UJC-H-G-SMT-2-P6-TR"
 			(at 41.91 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13287,7 +13277,7 @@
 	)
 	(sheet
 		(at 135.89 104.14)
-		(size 19.05 24.13)
+		(size 19.05 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13313,7 +13303,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 135.89 128.8546 0)
+			(at 135.89 131.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13386,6 +13376,16 @@
 		(pin "ADC_CH2" input
 			(at 154.94 125.73 0)
 			(uuid "6e14ef23-33d3-4cad-abc2-c6a2f1b9de6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_INT" output
+			(at 154.94 128.27 0)
+			(uuid "7fc24a63-0cd7-4882-957a-c3feaeec9120")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,121 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "RCJ-2223" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -3.81 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "RCJ-2223" (id 1) (at -3.81 -5.715 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "RCJ-2223:SAMESKY_RCJ-2223" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RCJ-2223_Same_Sky.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RCJ-2223_Same_Sky.pdf" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "3.20mm ID, 9.00mm OD (RCA) Phono (RCA) Jack Mono Connector Solder" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Same Sky" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "27.7 mm" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "RCJ-2223" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.05" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SOURCE_URL" "https://www.snapeda.com/parts/RCJ-2223/Same+Sky/view-part/" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "UNIT" "mm" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "RCJ-2223_0_0"
+      (polyline
+        (pts (xy -2.54 3.175) (xy -2.54 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 1.905) (xy -4.445 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 1.905) (xy -4.445 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 3.175) (xy -2.54 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 2.54) (xy 0.0 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 3.81) (xy 0.635 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 2.54) (xy 5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 0.0) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 0.635 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 0.0) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -2.54 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -1.27) (xy -2.54 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -4.445 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 0.0) (xy -4.445 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 -1.27) (xy -2.54 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 1.905) (xy -2.54 0.0)) (stroke (width 0.254))
+      )
+      (pin passive line (at 10.16 -2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

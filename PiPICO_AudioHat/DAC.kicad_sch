@@ -4541,7 +4541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RCJ_2223:SAMESKY_RCJ-2223"
 			(at 241.3 66.04 0)
 			(hide yes)
 			(show_name no)

@@ -3200,6 +3200,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 83.82) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd193e1-0691-4b19-8966-f95ada629b7a")
+	)
+	(wire
+		(pts
 			(xy 165.1 129.54) (xy 165.1 132.08)
 		)
 		(stroke
@@ -3845,6 +3855,17 @@
 		)
 		(uuid "e47a68f3-6c89-427e-8584-f5ccd4ed8069")
 	)
+	(hierarchical_label "ADC_INT"
+		(shape output)
+		(at 233.68 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4a3d391-0e05-4878-b10d-2ddf209dd049")
+	)
 	(symbol
 		(lib_id "power:GNDA")
 		(at 76.2 63.5 0)
@@ -4025,7 +4046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0R"
 			(at 167.64 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1uF"
 			(at 104.14 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4198,7 +4219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.6 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4684,7 +4705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RCJ_2223:SAMESKY_RCJ-2223"
 			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5480,7 +5501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RCJ_2223:SAMESKY_RCJ-2223"
 			(at 101.6 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6266,7 +6287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.1uF"
 			(at 40.64 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,7 +6298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 38.1 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6757,7 +6778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RCJ_2223:SAMESKY_RCJ-2223"
 			(at 25.4 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6909,7 +6930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0R"
 			(at 167.64 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7239,7 +7260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RCJ_2223:SAMESKY_RCJ-2223"
 			(at 25.4 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7481,7 +7502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0R"
 			(at 167.64 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +9245,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "2.2uF"
 			(at 241.3 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9234,7 +9255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9305,7 +9326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0R"
 			(at 167.64 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
