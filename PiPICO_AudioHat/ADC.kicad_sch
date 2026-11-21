@@ -2141,6 +2141,12 @@
 		(uuid "78568cb1-6b91-464c-9b36-97598bd90796")
 	)
 	(junction
+		(at 254 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a48584f8-5dce-4bcd-8c7a-dbceb40eba94")
+	)
+	(junction
 		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2307,6 +2313,16 @@
 			(type default)
 		)
 		(uuid "173977cd-3726-4240-8d10-1b42291fde8d")
+	)
+	(wire
+		(pts
+			(xy 220.98 35.56) (xy 220.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e930db-36a5-454f-b7c4-efcfa403d846")
 	)
 	(wire
 		(pts
@@ -2540,6 +2556,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 33.02) (xy 254 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455f096c-5ee1-441c-99d4-6175f518e9b2")
+	)
+	(wire
+		(pts
 			(xy 231.14 73.66) (xy 243.84 73.66)
 		)
 		(stroke
@@ -2750,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 33.02) (xy 238.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f655753-ad4e-4161-8197-b926ea756072")
+	)
+	(wire
+		(pts
 			(xy 76.2 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -2897,6 +2933,16 @@
 			(type default)
 		)
 		(uuid "78656566-dd8c-4445-a42d-61c78bbb30fe")
+	)
+	(wire
+		(pts
+			(xy 243.84 33.02) (xy 254 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79644881-edff-49dd-be9e-0ec7af695aa4")
 	)
 	(wire
 		(pts
@@ -9060,6 +9106,86 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a/0349d98b-e009-46d4-b6e1-916773e0607c"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 241.3 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cceceec0-b063-4079-9486-dab38d059b1b")
+		(property "Reference" "C50"
+			(at 241.3 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 241.3 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 241.3 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6e0e721-9349-4830-a293-d826023380b1")
+		)
+		(pin "1"
+			(uuid "a6ded3d9-4ef2-4c13-b2f3-d2c81c580761")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a/0349d98b-e009-46d4-b6e1-916773e0607c"
+					(reference "C50")
 					(unit 1)
 				)
 			)
