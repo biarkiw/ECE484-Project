@@ -4311,26 +4311,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 146.05) (xy 166.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b1e54be-09fa-4ef3-8904-a892d17663c7")
-	)
-	(wire
-		(pts
-			(xy 227.33 111.76) (xy 227.33 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba1dbcc-46f8-47cd-b760-4af740e387cb")
-	)
-	(wire
-		(pts
 			(xy 25.4 114.3) (xy 27.94 114.3)
 		)
 		(stroke
@@ -4338,16 +4318,6 @@
 			(type default)
 		)
 		(uuid "0c334bc8-a8ca-4de2-b692-a856fc192bd9")
-	)
-	(wire
-		(pts
-			(xy 154.94 111.76) (xy 161.29 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec21cfc-7d60-41a1-83c3-44183e162540")
 	)
 	(wire
 		(pts
@@ -4388,16 +4358,6 @@
 			(type default)
 		)
 		(uuid "14507a6f-ec48-4325-856f-cc764fd10f97")
-	)
-	(wire
-		(pts
-			(xy 161.29 115.57) (xy 173.99 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14532fc7-2dc1-4b5f-baa6-7db2ee4ac7b6")
 	)
 	(wire
 		(pts
@@ -4481,26 +4441,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 114.3) (xy 229.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a3ddbbb-6ba0-4dcc-a6ba-f44f6073886e")
-	)
-	(wire
-		(pts
-			(xy 154.94 138.43) (xy 158.75 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a910f45-ff43-4815-a6e0-42ac7a62bec8")
-	)
-	(wire
-		(pts
 			(xy 78.74 124.46) (xy 78.74 121.92)
 		)
 		(stroke
@@ -4511,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 140.97) (xy 168.91 140.97)
+			(xy 231.14 115.57) (xy 226.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4651,16 +4591,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 109.22) (xy 242.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30677b9f-977a-4516-b88f-04069abc934d")
-	)
-	(wire
-		(pts
 			(xy 171.45 97.79) (xy 173.99 97.79)
 		)
 		(stroke
@@ -4668,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "3391b440-ffc2-430d-b2ea-d1bb9db4480e")
+	)
+	(wire
+		(pts
+			(xy 219.71 107.95) (xy 231.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e7c566-e499-468b-9571-6cc35fbccdfa")
 	)
 	(wire
 		(pts
@@ -4688,16 +4628,6 @@
 			(type default)
 		)
 		(uuid "35d14926-ce19-46d3-9501-b2b3159dc125")
-	)
-	(wire
-		(pts
-			(xy 166.37 110.49) (xy 173.99 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "366f46cd-d320-4412-9f25-731db634024f")
 	)
 	(wire
 		(pts
@@ -4771,26 +4701,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 118.11) (xy 224.79 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4139ac43-d92e-4b05-bda9-d1fe987d059f")
-	)
-	(wire
-		(pts
-			(xy 227.33 111.76) (xy 242.57 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4285c796-2b3d-43ac-85bb-5a7e0e4f2e03")
-	)
-	(wire
-		(pts
 			(xy 196.85 156.21) (xy 196.85 158.75)
 		)
 		(stroke
@@ -4851,16 +4761,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 114.3) (xy 154.94 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b74060-baf5-46f1-b504-7833af6997a8")
-	)
-	(wire
-		(pts
 			(xy 165.1 165.1) (xy 165.1 170.18)
 		)
 		(stroke
@@ -4891,16 +4791,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 140.97) (xy 161.29 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49eb5ee6-3941-4d41-a441-883e6c68dbee")
-	)
-	(wire
-		(pts
 			(xy 191.77 82.55) (xy 191.77 69.85)
 		)
 		(stroke
@@ -4921,16 +4811,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 118.11) (xy 158.75 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f1e3c8f-83ea-4537-8021-a98d2df9fcac")
-	)
-	(wire
-		(pts
 			(xy 247.65 88.9) (xy 254 88.9)
 		)
 		(stroke
@@ -4941,7 +4821,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 143.51) (xy 173.99 143.51)
+			(xy 226.06 118.11) (xy 231.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5008,16 +4888,6 @@
 			(type default)
 		)
 		(uuid "57269fd3-a787-4f09-9eb8-1eb04adad9df")
-	)
-	(wire
-		(pts
-			(xy 229.87 123.19) (xy 219.71 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "575c4260-121a-404b-8935-f06d31916448")
 	)
 	(wire
 		(pts
@@ -5201,16 +5071,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 173.99 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aaf0e74-9bb5-47d2-95cf-de1b0d541cb4")
-	)
-	(wire
-		(pts
 			(xy 106.68 74.93) (xy 102.87 74.93)
 		)
 		(stroke
@@ -5218,16 +5078,6 @@
 			(type default)
 		)
 		(uuid "6cdbcda6-2b82-4aa4-a16f-9f06e966b092")
-	)
-	(wire
-		(pts
-			(xy 224.79 118.11) (xy 224.79 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e7e0892-79eb-4ed6-a7c1-52d525f0b1ed")
 	)
 	(wire
 		(pts
@@ -5241,6 +5091,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 113.03) (xy 231.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d21ca6-739c-4618-9122-29c8f1033719")
+	)
+	(wire
+		(pts
 			(xy 53.34 45.72) (xy 54.61 45.72)
 		)
 		(stroke
@@ -5248,16 +5108,6 @@
 			(type default)
 		)
 		(uuid "7204e528-86e9-4a3b-a6ca-5ff1f01d2a1a")
-	)
-	(wire
-		(pts
-			(xy 163.83 113.03) (xy 163.83 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73bac99b-e208-405d-abfb-8d55a45d083c")
 	)
 	(wire
 		(pts
@@ -5278,16 +5128,6 @@
 			(type default)
 		)
 		(uuid "74a74fdb-e6f8-4d00-895c-5b7eaf7f0acd")
-	)
-	(wire
-		(pts
-			(xy 154.94 106.68) (xy 166.37 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e30ae4-0176-4765-ac97-d15108e5ee1c")
 	)
 	(wire
 		(pts
@@ -5361,16 +5201,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 118.11) (xy 158.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "814a8aeb-82ff-4872-ad72-111002a018ad")
-	)
-	(wire
-		(pts
 			(xy 97.79 67.31) (xy 106.68 67.31)
 		)
 		(stroke
@@ -5408,16 +5238,6 @@
 			(type default)
 		)
 		(uuid "87d91be3-6fda-4a6b-9a7d-b8e5f149dafe")
-	)
-	(wire
-		(pts
-			(xy 154.94 140.97) (xy 161.29 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88319711-dda3-412e-a228-5e2611452018")
 	)
 	(wire
 		(pts
@@ -5541,16 +5361,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 173.99 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93628391-8c03-4c4d-a6fc-a29240178bc5")
-	)
-	(wire
-		(pts
 			(xy 40.64 114.3) (xy 40.64 116.84)
 		)
 		(stroke
@@ -5568,36 +5378,6 @@
 			(type default)
 		)
 		(uuid "951774cf-03f0-4e4c-9868-5737cd87fb97")
-	)
-	(wire
-		(pts
-			(xy 161.29 111.76) (xy 161.29 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "970d183a-e023-48ae-b15e-3c7a1a80715a")
-	)
-	(wire
-		(pts
-			(xy 163.83 143.51) (xy 163.83 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b84e78-9a6e-427c-b192-6c77635caba1")
-	)
-	(wire
-		(pts
-			(xy 154.94 120.65) (xy 173.99 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3d3051-f6d3-42c3-a1b9-faf63cfb3d34")
 	)
 	(wire
 		(pts
@@ -5781,16 +5561,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 109.22) (xy 154.94 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae31e741-ff3d-42d9-8c47-5a721222b5b4")
-	)
-	(wire
-		(pts
 			(xy 50.8 184.15) (xy 63.5 184.15)
 		)
 		(stroke
@@ -5891,16 +5661,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 114.3) (xy 242.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d737b0-a0e9-4730-97b0-14df25b482fd")
-	)
-	(wire
-		(pts
 			(xy 45.72 124.46) (xy 45.72 127)
 		)
 		(stroke
@@ -5928,36 +5688,6 @@
 			(type default)
 		)
 		(uuid "bdccb27c-7740-48f7-b9de-104ff558dcf4")
-	)
-	(wire
-		(pts
-			(xy 163.83 135.89) (xy 173.99 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb26f9d-98ce-4078-8424-ed3b897f7831")
-	)
-	(wire
-		(pts
-			(xy 158.75 130.81) (xy 173.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beea2326-58eb-4c6a-a3b7-97c8596ebac1")
-	)
-	(wire
-		(pts
-			(xy 166.37 106.68) (xy 166.37 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d260ae-23d7-467a-b820-90fcc5aaf704")
 	)
 	(wire
 		(pts
@@ -6001,16 +5731,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 133.35) (xy 173.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c757879a-9b6e-45ba-b19f-45889ca1e60f")
-	)
-	(wire
-		(pts
 			(xy 266.7 139.7) (xy 266.7 143.51)
 		)
 		(stroke
@@ -6018,16 +5738,6 @@
 			(type default)
 		)
 		(uuid "c9e90097-f098-4e68-9ce5-91d5a4f936fb")
-	)
-	(wire
-		(pts
-			(xy 166.37 138.43) (xy 173.99 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce616a28-0390-48fe-b349-408c73542444")
 	)
 	(wire
 		(pts
@@ -6101,26 +5811,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 146.05) (xy 166.37 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7eb1493-ef76-443e-abb9-d63bf3f56ac1")
-	)
-	(wire
-		(pts
-			(xy 173.99 113.03) (xy 163.83 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d87f269d-42dd-42b2-b89c-e7236dc32454")
-	)
-	(wire
-		(pts
 			(xy 50.8 124.46) (xy 45.72 124.46)
 		)
 		(stroke
@@ -6161,13 +5851,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 120.65) (xy 219.71 120.65)
+			(xy 219.71 110.49) (xy 231.14 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de1f1a18-bd32-4654-94a2-e94879f4ab93")
+		(uuid "dd65c6d1-24d7-4717-85ee-6e110cf321c9")
 	)
 	(wire
 		(pts
@@ -6281,16 +5971,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 173.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed04ae28-3f8e-4ed4-84fd-ad461f53c63c")
-	)
-	(wire
-		(pts
 			(xy 99.06 33.02) (xy 99.06 35.56)
 		)
 		(stroke
@@ -6341,16 +6021,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 143.51) (xy 163.83 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f34b22b1-81d6-461a-97eb-23f481460e56")
-	)
-	(wire
-		(pts
 			(xy 25.4 88.9) (xy 27.94 88.9)
 		)
 		(stroke
@@ -6388,16 +6058,6 @@
 			(type default)
 		)
 		(uuid "fcb4f33c-1d66-49ac-9050-2ab9a04a88ea")
-	)
-	(wire
-		(pts
-			(xy 158.75 138.43) (xy 158.75 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff69713b-babc-44a8-904b-83790d5eac6e")
 	)
 	(wire
 		(pts
@@ -6470,7 +6130,7 @@
 		(uuid "31ccaa0d-6233-4fbf-82cd-723aa66273c7")
 	)
 	(label "LCD_SDA"
-		(at 242.57 109.22 180)
+		(at 231.14 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6530,7 +6190,7 @@
 		(uuid "60b2d796-ef94-4a11-913c-87e85a0c81a0")
 	)
 	(label "LCD_SCL"
-		(at 242.57 111.76 180)
+		(at 231.14 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6540,7 +6200,7 @@
 		(uuid "68f91714-676a-4a0c-a801-e378a40043cf")
 	)
 	(label "BUT4"
-		(at 168.91 143.51 0)
+		(at 226.06 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6550,7 +6210,7 @@
 		(uuid "b962717d-0367-45ea-87a3-416543345f64")
 	)
 	(label "BUT3"
-		(at 168.91 140.97 0)
+		(at 226.06 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6580,7 +6240,7 @@
 		(uuid "d5534579-5352-4d81-bf48-755de864838d")
 	)
 	(label "LCD_RST"
-		(at 242.57 114.3 180)
+		(at 231.14 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6621,7 +6281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0153b6a4-70b4-4f96-81a5-a93eda3f8555")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR029"
 			(at 223.52 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6681,7 +6341,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR078")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0500567c-71b8-4f44-9730-0f546a72851f")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR015"
 			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6878,7 +6538,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR068")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6896,7 +6556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0533a3b0-cea5-4b58-b8c4-ce7f3af7ccbb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR01"
 			(at 88.9 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6956,7 +6616,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR032")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6974,7 +6634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08441e46-c5a6-4a8d-84f2-3bba6691fc43")
-		(property "Reference" "R15"
+		(property "Reference" "R3"
 			(at 67.31 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7038,7 +6698,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R15")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7056,7 +6716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6bb2ba-96d6-453d-8e1c-a9212b4a28dc")
-		(property "Reference" "R21"
+		(property "Reference" "R5"
 			(at 43.18 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7120,7 +6780,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R21")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7138,7 +6798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "153d3be0-3b42-4cea-b77a-d3ed3f7ef4ce")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 104.14 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7202,7 +6862,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7302,7 +6962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d4fd5e-4f7b-4b81-b0b2-62d7c23b4eb1")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 109.22 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7373,7 +7033,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7391,7 +7051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b069bb9-1e09-46d2-9924-2fc7c494c6c6")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 53.34 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7455,7 +7115,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7472,7 +7132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b5a0e9d-6cd7-47f6-859f-3eb50d598660")
-		(property "Reference" "R25"
+		(property "Reference" "R9"
 			(at 231.14 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7534,7 +7194,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R25")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e23fae-90f6-4864-8d1e-3c5481ce1596")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 38.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7612,7 +7272,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7713,7 +7373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab3fc51-155c-47f2-ba1e-c5295a46da13")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 91.44 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +7437,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7795,7 +7455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4d5eb9-8268-4862-a5d8-65d498ee4f44")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR06"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7855,7 +7515,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR040")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7873,7 +7533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b846816-b8bf-49f5-ba19-006b7635853e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR022"
 			(at 270.51 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7933,7 +7593,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR065")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8070,7 +7730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3223f3ea-cbed-4d37-8964-5d1ac7a13429")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR08"
 			(at 203.2 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8130,7 +7790,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR074")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8148,7 +7808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32535037-3938-451c-af61-037db80284c6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 127 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8208,7 +7868,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8308,7 +7968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e3a1f06-6cbd-4dc0-af25-4f63a43e775d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR010"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8368,7 +8028,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR027")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8386,7 +8046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f880c46-b214-474f-9047-5e4aaabbdcd5")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR034"
 			(at 82.55 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8446,7 +8106,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR05")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8464,7 +8124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "426749b2-2940-41c5-af5d-b2d357d64630")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR033"
 			(at 165.1 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8524,7 +8184,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR06")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8621,7 +8281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ad98bb-4a82-43ee-9405-92ee08c3ec8e")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 118.9833 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8709,7 +8369,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8727,7 +8387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca0623c-24ea-4683-939a-45cd809062f0")
-		(property "Reference" "R24"
+		(property "Reference" "R8"
 			(at 81.28 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8791,7 +8451,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R24")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8808,7 +8468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dfef365-fa2c-4d59-a833-cfc746fc133c")
-		(property "Reference" "SW7"
+		(property "Reference" "SW3"
 			(at 70.866 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8870,7 +8530,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "SW7")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8888,7 +8548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f6ab78b-2da6-4637-9732-d5408ff2c9f6")
-		(property "Reference" "R22"
+		(property "Reference" "R6"
 			(at 81.28 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8952,7 +8612,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R22")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8970,7 +8630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50f55b95-f597-4219-872b-b44ff0ab4d54")
-		(property "Reference" "R23"
+		(property "Reference" "R7"
 			(at 43.18 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9034,7 +8694,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R23")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9052,7 +8712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513e140f-0903-40be-a998-b75f3b112b14")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 78.74 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9116,7 +8776,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9134,7 +8794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "532b2796-3893-48c8-9e16-906fd514aef5")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR013"
 			(at 116.84 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9194,7 +8854,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR064")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9212,7 +8872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "556a1861-560d-4b6f-b355-4c1dc51fe1db")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR012"
 			(at 270.51 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +8932,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR033")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9290,7 +8950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56343670-8ea2-4aa0-b940-e9e3fd4e67d8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 109.22 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9350,7 +9010,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9368,7 +9028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5837915a-1eed-4e5b-913e-cada2e51f175")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 105.41 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9432,7 +9092,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9450,7 +9110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "584cb71e-7b6d-4e5c-8561-cb1191cfcddb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR032"
 			(at 139.7 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9510,7 +9170,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR07")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9528,7 +9188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d4607c3-0a85-497d-b3d8-b288293691b3")
-		(property "Reference" "C49"
+		(property "Reference" "C11"
 			(at 91.44 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9592,7 +9252,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C49")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9610,7 +9270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e13354-1292-431a-a6a4-be75f54e1ef9")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR020"
 			(at 25.4 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9670,7 +9330,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR070")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9687,7 +9347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6efde11a-b999-4e15-b925-b1a1402546f1")
-		(property "Reference" "R26"
+		(property "Reference" "R4"
 			(at 135.89 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9749,7 +9409,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R26")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9767,7 +9427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "701384e1-dcd8-4992-819b-1b337322d900")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR05"
 			(at 120.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9827,7 +9487,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR029")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9926,7 +9586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "750d41ba-ed77-47b1-a7b3-a371b78a09d3")
-		(property "Reference" "SW9"
+		(property "Reference" "SW6"
 			(at 70.866 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9988,7 +9648,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "SW9")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -10006,7 +9666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766712b7-c4fa-4acb-98ca-7de5cf0866ec")
-		(property "Reference" "A1"
+		(property "Reference" "U3"
 			(at 198.9933 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,7 +9844,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "A1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10201,7 +9861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "769bc2a2-babd-4939-a5d1-b97984d2036d")
-		(property "Reference" "SW6"
+		(property "Reference" "SW2"
 			(at 32.766 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10263,7 +9923,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "SW6")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10281,7 +9941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c27d52-63a7-4fe6-b776-96c4beff07d1")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR023"
 			(at 242.57 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10341,7 +10001,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR077")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10359,7 +10019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fefefc8-d24a-4ad0-ace5-7e93d800640e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR011"
 			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10419,7 +10079,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR028")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10437,7 +10097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80407800-3376-4c2b-a342-a53439276c55")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR09"
 			(at 149.86 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10497,7 +10157,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR030")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10594,7 +10254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9df85d-99d7-4d0f-8548-7621d777b13a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR03"
 			(at 270.51 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10654,7 +10314,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR031")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aba86cd-d39b-4e5d-9c71-5ba723b46cbf")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR017"
 			(at 45.72 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10732,7 +10392,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR067")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10750,7 +10410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c8c604-55f0-4541-8d98-5a5ea54593c8")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR016"
 			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +10470,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR075")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10910,7 +10570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e9c6d9-108f-4f9a-a6b8-6aec9be38af7")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 66.04 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10974,7 +10634,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10992,7 +10652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9269900-03cd-4bb8-bcd8-cc1e3d821144")
-		(property "Reference" "C46"
+		(property "Reference" "C7"
 			(at 53.34 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +10716,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C46")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11074,7 +10734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae39833b-1e4d-43a9-a67c-12baa6f61ff2")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 256.54 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,7 +10798,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11236,7 +10896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0cc3d1f-ef6b-44f6-a11c-bd7ce32a9462")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR021"
 			(at 63.5 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11296,7 +10956,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR072")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11314,7 +10974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c54c444a-cd56-400d-a068-a20f7a591d84")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR024"
 			(at 45.72 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11374,7 +11034,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR071")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11474,7 +11134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc39569-8ad0-4c4e-a363-961868cddc2f")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 116.84 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11538,7 +11198,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11556,7 +11216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce3878d3-a0e9-43f3-8dff-ce223c817424")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR031"
 			(at 196.85 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11616,7 +11276,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR010")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11634,7 +11294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfff1a97-6de9-4a27-8a49-e5836dcec33e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR027"
 			(at 266.7 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -11694,7 +11354,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR011")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11712,7 +11372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d20f3429-571b-44d8-b626-8b81932f9b80")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR030"
 			(at 114.3 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11772,7 +11432,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR02")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11790,7 +11450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3368668-541b-4de3-8088-04d6c358ad82")
-		(property "Reference" "C48"
+		(property "Reference" "C10"
 			(at 53.34 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +11514,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C48")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11951,7 +11611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53941fc-5436-4d5f-a160-a3503363e1e4")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR026"
 			(at 245.11 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12011,7 +11671,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR076")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12124,7 +11784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dde3be88-8a7c-4979-9586-434f9cf13227")
-		(property "Reference" "C47"
+		(property "Reference" "C8"
 			(at 91.44 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12188,7 +11848,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C47")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12324,7 +11984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded74216-704f-415d-abd4-4b932dbf4a70")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 256.54 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12388,7 +12048,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -12406,7 +12066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b43eea-53db-4170-a699-d48535a2e265")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 137.16 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12470,7 +12130,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5130cdb-98c9-4caa-949d-866f4e98d2f6")
-		(property "Reference" "SW8"
+		(property "Reference" "SW5"
 			(at 32.766 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12549,7 +12209,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "SW8")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -12567,7 +12227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5846fb5-de95-4d8e-bca5-5f385a13adad")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR014"
 			(at 25.4 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12627,7 +12287,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR066")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12645,7 +12305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ab5195-c6a9-4d72-a5e1-a7f463b435d7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR028"
 			(at 25.4 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12705,7 +12365,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR01")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12723,7 +12383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed00b3a-305f-4809-bec1-8c3319469e1d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR019"
 			(at 266.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -12783,7 +12443,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR026")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12801,7 +12461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0226e3e-e465-47be-90ed-d2b92957cd1d")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR025"
 			(at 83.82 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12861,7 +12521,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR073")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12878,7 +12538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f321098b-32b8-4fce-877e-5b8f62867542")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 100.584 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12942,7 +12602,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12960,7 +12620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4372a4a-7335-410b-98b7-e8dafd1bb09b")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 57.15 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13024,7 +12684,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13041,7 +12701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f80eec3d-f94f-49e1-9c8c-6f870d4a0aaf")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 166.116 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13103,7 +12763,7 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -13121,7 +12781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff1277ad-6064-407f-b3da-26a945c1211a")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR018"
 			(at 83.82 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13181,14 +12841,14 @@
 		(instances
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR069")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 135.89 135.89)
+		(at 134.62 101.6)
 		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13204,7 +12864,7 @@
 		)
 		(uuid "00392a00-2413-4998-abe8-751dd2c3241f")
 		(property "Sheetname" "DAC"
-			(at 135.89 135.1784 0)
+			(at 134.62 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13215,7 +12875,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 135.89 149.1746 0)
+			(at 134.62 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13226,7 +12886,7 @@
 			)
 		)
 		(pin "DAC_LRCK" input
-			(at 154.94 140.97 0)
+			(at 153.67 106.68 0)
 			(uuid "1fd2f3e8-180d-4802-bcb1-8ea9447d66e1")
 			(effects
 				(font
@@ -13236,7 +12896,7 @@
 			)
 		)
 		(pin "DAC_BCK" input
-			(at 154.94 143.51 0)
+			(at 153.67 109.22 0)
 			(uuid "dff42d70-44ef-4596-9e40-0220ca498e1c")
 			(effects
 				(font
@@ -13246,7 +12906,7 @@
 			)
 		)
 		(pin "DAC_DIN" input
-			(at 154.94 138.43 0)
+			(at 153.67 104.14 0)
 			(uuid "e30ef126-26fd-4d39-9a32-9bae051cc1bf")
 			(effects
 				(font
@@ -13256,7 +12916,7 @@
 			)
 		)
 		(pin "DAC_SCK" input
-			(at 154.94 146.05 0)
+			(at 153.67 111.76 0)
 			(uuid "1f5c25e1-4034-448b-a783-f8279a491234")
 			(effects
 				(font
@@ -13274,7 +12934,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 104.14)
+		(at 133.35 127)
 		(size 19.05 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13290,7 +12950,7 @@
 		)
 		(uuid "0349d98b-e009-46d4-b6e1-916773e0607c")
 		(property "Sheetname" "ADC"
-			(at 135.89 103.4284 0)
+			(at 133.35 126.2884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13301,7 +12961,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 135.89 131.3946 0)
+			(at 133.35 154.2546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13312,7 +12972,7 @@
 			)
 		)
 		(pin "ADC_CH0" input
-			(at 154.94 120.65 0)
+			(at 152.4 133.35 0)
 			(uuid "4c3e9323-edcb-4870-ba74-fa8f965aafd1")
 			(effects
 				(font
@@ -13322,7 +12982,7 @@
 			)
 		)
 		(pin "ADC_CH1" input
-			(at 154.94 123.19 0)
+			(at 152.4 135.89 0)
 			(uuid "6945ea39-8a2f-46c6-a787-2bb6f7c1afca")
 			(effects
 				(font
@@ -13332,7 +12992,7 @@
 			)
 		)
 		(pin "ADC_CLOCK" input
-			(at 154.94 114.3 0)
+			(at 152.4 149.86 0)
 			(uuid "39a14778-7a08-4ae6-a486-20ea5a103289")
 			(effects
 				(font
@@ -13342,7 +13002,7 @@
 			)
 		)
 		(pin "ADC_LRCK" bidirectional
-			(at 154.94 109.22 0)
+			(at 152.4 147.32 0)
 			(uuid "5f6887f9-21cc-4197-9571-9ad15f49a187")
 			(effects
 				(font
@@ -13352,7 +13012,7 @@
 			)
 		)
 		(pin "ADC_DOUT" output
-			(at 154.94 106.68 0)
+			(at 152.4 142.24 0)
 			(uuid "b741ce86-c675-4511-97d6-229b471fa7b4")
 			(effects
 				(font
@@ -13362,7 +13022,7 @@
 			)
 		)
 		(pin "ADC_BCK" bidirectional
-			(at 154.94 111.76 0)
+			(at 152.4 144.78 0)
 			(uuid "b0b5aae6-fee2-4cf9-8e70-fce0d968a415")
 			(effects
 				(font
@@ -13372,7 +13032,7 @@
 			)
 		)
 		(pin "ADC_CH2" input
-			(at 154.94 125.73 0)
+			(at 152.4 138.43 0)
 			(uuid "6e14ef23-33d3-4cad-abc2-c6a2f1b9de6a")
 			(effects
 				(font
@@ -13382,7 +13042,7 @@
 			)
 		)
 		(pin "ADC_INT" output
-			(at 154.94 128.27 0)
+			(at 152.4 129.54 0)
 			(uuid "7fc24a63-0cd7-4882-957a-c3feaeec9120")
 			(effects
 				(font

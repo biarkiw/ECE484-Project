@@ -7,4 +7,5 @@
 	(lib (name "500SSP1S1M6QEA") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/500SSP1S1M6QEA") (options "") (descr ""))
 	(lib (name "JS102011SAQN") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/JS102011SAQN") (options "") (descr ""))
 	(lib (name "TL3305BF260QG") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/TL3305BF260QG") (options "") (descr ""))
+	(lib (name "PiPICO_AudioHat") (type "KiCad") (uri "/home/biarki/Documents/git-repos/ECE484-Project/PiPICO_AudioHat.pretty") (options "") (descr ""))
 )
