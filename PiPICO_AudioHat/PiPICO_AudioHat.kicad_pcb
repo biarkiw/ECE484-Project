@@ -153,12 +153,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/75730622-20ad-40be-b3e0-5a3fa903d388")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -336,12 +330,6 @@
 		(path "/2d12abe3-2485-40de-a5e9-55fd4b104c57")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -596,6 +584,24 @@
 			(layer "F.Fab")
 			(uuid "91cbb6ad-3604-44b7-9635-2e4e5330b3fe")
 		)
+		(pad "" thru_hole oval
+			(at -4.4 0 90)
+			(size 2.3 4.6)
+			(drill oval 1.8 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "5819a016-815a-45a0-bdea-cf29a996cc59")
+		)
+		(pad "" thru_hole oval
+			(at 4.4 0 90)
+			(size 2.3 4.6)
+			(drill oval 1.8 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "1b57daae-e911-4f80-97d5-c9c1eddacc3a")
+		)
 		(pad "1" thru_hole rect
 			(at -2.5 7 90)
 			(size 1.508 1.508)
@@ -632,30 +638,23 @@
 			(solder_mask_margin 0.102)
 			(uuid "6461ca6e-cc3a-4321-8094-8472cbff988d")
 		)
-		(pad "S1" thru_hole oval
-			(at -4.4 0 90)
-			(size 2.3 4.6)
-			(drill oval 1.8 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "5819a016-815a-45a0-bdea-cf29a996cc59")
-		)
-		(pad "S2" thru_hole oval
-			(at 4.4 0 90)
-			(size 2.3 4.6)
-			(drill oval 1.8 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "1b57daae-e911-4f80-97d5-c9c1eddacc3a")
-		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/PT01_D115D_B503/PT01-D115D-B503.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "07b27983-ad1f-4a48-b5af-db50431c5f70")
-		(at 177.6375 48.5 180)
+		(at 178.1375 48.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C45"
@@ -718,12 +717,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/4b012670-933f-40c8-9016-04feef4ddf91")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -813,7 +806,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "09c03e55-b847-4fd3-a4cb-dc18f0d55898")
-		(at 142 63.5)
+		(at 17.6125 114.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C37"
@@ -876,12 +869,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/6e669c3e-3092-4ab3-ba01-675d64d0ba3f")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1023,12 +1010,6 @@
 		(path "/429ba8b8-1556-4f7d-8f77-fd4f711cf3ef")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1292,11 +1273,22 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0f30a40a-2360-48ef-a4bf-ced12802d43b")
-		(at 196.1375 68)
+		(at 187.6125 58.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C41"
@@ -1359,12 +1351,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/ecdbf5fc-1e04-4697-9ebb-3c9757d9f11b")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1502,12 +1488,6 @@
 		(path "/d461b3fc-9672-41b9-a6b7-9ccf5101fd3f")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1762,6 +1742,24 @@
 			(layer "F.Fab")
 			(uuid "87d977c7-a717-4d6f-abc7-f24a907ca782")
 		)
+		(pad "" thru_hole circle
+			(at -6.605 -4.765 90)
+			(size 2.775 2.775)
+			(drill 1.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "3c9ec9b5-b598-449f-9e54-ac330d060308")
+		)
+		(pad "" thru_hole circle
+			(at 6.605 -4.765 90)
+			(size 2.775 2.775)
+			(drill 1.85)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "cf798067-d118-464e-897e-81ca8728691d")
+		)
 		(pad "1" thru_hole circle
 			(at 0 4.765 90)
 			(size 2.775 2.775)
@@ -1798,30 +1796,23 @@
 			(solder_mask_margin 0.102)
 			(uuid "3a986b49-8fea-4cc5-a37e-5dcf715be1b1")
 		)
-		(pad "S1" thru_hole circle
-			(at -6.605 -4.765 90)
-			(size 2.775 2.775)
-			(drill 1.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "3c9ec9b5-b598-449f-9e54-ac330d060308")
-		)
-		(pad "S2" thru_hole circle
-			(at 6.605 -4.765 90)
-			(size 2.775 2.775)
-			(drill 1.85)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "cf798067-d118-464e-897e-81ca8728691d")
-		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/500SSP1S1M6QEA/500SSP1S1M6QEA.step"
+			(offset
+				(xyz 0 -0.5 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "168d32ab-04a1-4a68-9109-9907c94deb94")
-		(at 181 64.0875 -90)
+		(at 181.75 61.25 -90)
 		(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U5"
@@ -1884,14 +1875,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/71cc6743-f034-4d11-b069-828e2509af06")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "15" "14" "13" "12" "11" "10" "17" "16" "1" "3" "20" "19" "8" "9"
-					"6" "7" "2" "4" "18" "5"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2333,12 +2316,6 @@
 		(path "/750d41ba-ed77-47b1-a7b3-a371b78a09d3")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2524,6 +2501,17 @@
 			(uuid "f244fda9-005d-4e66-8fc9-d2677c2eabd7")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/TL3305BF260QG/TL3305BF260QG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -2591,12 +2579,6 @@
 		(path "/50f55b95-f597-4219-872b-b44ff0ab4d54")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2686,7 +2668,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "214d0e29-a1c6-4e8c-99d6-04292d1c79c6")
-		(at 88.4625 69)
+		(at 81.4625 76.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
@@ -2749,12 +2731,6 @@
 		(path "/a4e9c6d9-108f-4f9a-a6b8-6aec9be38af7")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2907,12 +2883,6 @@
 		(path "/5d4607c3-0a85-497d-b3d8-b288293691b3")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3065,12 +3035,6 @@
 		(path "/e0b43eea-53db-4170-a699-d48535a2e265")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3223,12 +3187,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/dd2d728c-6574-4f8d-8826-8e204dc0ae26")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3366,12 +3324,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/2c7c7e9f-da4d-4e2e-938b-d825d8531b17")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3617,6 +3569,17 @@
 			(uuid "71776af9-a5a4-444f-b8ff-58c87bd54499")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/JS102011SAQN/JS102011SAQN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -3684,12 +3647,6 @@
 		(path "/f321098b-32b8-4fce-877e-5b8f62867542")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3842,12 +3799,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/319617e3-a944-4499-9e5d-b4eea937d682")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3937,7 +3888,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e5f618d-4bcf-498c-9e6b-1ef3506e886c")
-		(at 163.1375 101.5)
+		(at 145.75 108)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
@@ -4000,12 +3951,6 @@
 		(path "/dde3be88-8a7c-4979-9586-434f9cf13227")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4095,7 +4040,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e916da6-6a81-4632-b95c-57a70b59c99f")
-		(at 107.425 -3.4625 -90)
+		(at 104.5 -5 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -4158,12 +4103,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/adfa03f4-c406-4571-a74b-f01f13c4bda9")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4253,13 +4192,13 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3f41d495-07aa-4c06-98f4-aed65df6a6f7")
-		(at 132.5 73.5)
+		(at 139.5 72.4125 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
-			(at 0 -1.43 0)
+			(at 0 1.5 90)
 			(layer "F.SilkS")
-			(uuid "e2b23876-781e-4ec6-917f-3baa59d7aecd")
+			(uuid "2ed01631-f5cf-4149-952d-863173ed48e3")
 			(effects
 				(font
 					(size 1 1)
@@ -4268,9 +4207,9 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "5ddd5c3f-573d-4d11-b7e6-c374a1efd46b")
+			(uuid "3306ea2d-f817-4d55-9140-3f92a143f733")
 			(effects
 				(font
 					(size 1 1)
@@ -4279,10 +4218,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cec5dc8a-c03e-42dd-8c9e-25cdbce86aec")
+			(uuid "ba0a98e3-99d0-4471-8cd2-04dae319dd20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,10 +4229,10 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30123aec-875d-44a5-9fa5-c1ab4b771b68")
+			(uuid "798d3d6b-55a2-4175-b0ec-05e9f347704e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4240,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e6430ddf-8562-4cc6-8881-02db65e47255")
@@ -4316,24 +4255,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/e12d9e29-5adc-4544-9735-4cb1a1a273c6")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2a89786d-9282-48a5-bc8a-99498be944af")
-		)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -4343,6 +4266,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c3fda2e0-48f2-4a5a-a46a-9ce6a25ea510")
+		)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a89786d-9282-48a5-bc8a-99498be944af")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -4367,7 +4300,7 @@
 			(uuid "cfd1d93c-e5ba-4157-82ba-e7f1131a005c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "f451992f-fc57-4d68-b87f-b144da619c35")
 			(effects
@@ -4378,7 +4311,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4387,7 +4320,7 @@
 			(uuid "8e819ce0-3d5a-4b6d-b677-92b7f36871eb")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4474,12 +4407,6 @@
 		(path "/5837915a-1eed-4e5b-913e-cada2e51f175")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4569,7 +4496,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "49c279e3-3cb8-4318-ae88-4e82abd40bd2")
-		(at 81.8625 5)
+		(at 78.9375 3.4625)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C21"
@@ -4632,12 +4559,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/19b57402-cba1-40cb-afc8-173044205619")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4790,12 +4711,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/d784f31f-4132-43a0-9f8a-cbaa24787761")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4885,7 +4800,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4e45a05b-0bd2-46aa-8365-5b35c42b3072")
-		(at 178.5 52.5875 90)
+		(at 179 52.5875 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R25"
@@ -4948,12 +4863,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/9aa4002c-d88f-4699-bf93-d4f842881514")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5043,7 +4952,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "524bdf25-e06f-4d41-9da2-383122f3a820")
-		(at 116.925 -0.9625)
+		(at 114 -2.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C28"
@@ -5106,12 +5015,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/e8d8b988-8554-491a-a84c-3acb7fdaab86")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5264,12 +5167,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/9f8667aa-bf77-4b43-b85b-c2e252b512c2")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5359,7 +5256,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "59292fb1-cd06-458b-b1e9-a1e428f2155c")
-		(at 160.5 50)
+		(at 160 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP6"
@@ -5414,12 +5311,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/c2b1370b-8cdd-4590-b664-9a6af30a249f")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5537,7 +5428,7 @@
 		(property "Reference" "J4"
 			(at -8.825 6.365 0)
 			(layer "F.SilkS")
-			(uuid "f1819b4f-95e4-48bb-8def-65fe1fc020a0")
+			(uuid "1c3aac1a-014a-455d-94ba-16efaf746594")
 			(effects
 				(font
 					(size 1 1)
@@ -5548,7 +5439,7 @@
 		(property "Value" "Conn_Coaxial_x2"
 			(at -1.84 7.865 0)
 			(layer "F.Fab")
-			(uuid "5b4d63fc-7eca-4035-82bb-bb8f0b91232e")
+			(uuid "b5b49df3-4981-4e0d-880e-cbe2067208e3")
 			(effects
 				(font
 					(size 1 1)
@@ -5560,7 +5451,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5c8fdb4-f8d0-4931-8a30-4240b829b46d")
+			(uuid "ee21d68c-b33e-4067-89b7-64d94a429a0b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,7 +5462,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2636c76b-8e2d-465c-a60f-6265ab26c62d")
+			(uuid "6954bd54-00f0-41e2-becb-572890fd9e62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,12 +5473,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/91b8807d-957f-414d-b68d-405cbd322e86")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5950,6 +5835,17 @@
 			(uuid "acf61d96-29a4-425a-b0f7-3f7dc54adaa5")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/RCJ_2223/RCJ-2223.step"
+			(offset
+				(xyz 0 5.5 14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -6017,12 +5913,6 @@
 		(path "/f4372a4a-7335-410b-98b7-e8dafd1bb09b")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6112,7 +6002,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "5f7d3601-86f7-4a00-bcbb-610fc415bab1")
-		(at 178.5 43.5 -90)
+		(at 179 43.75 -90)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP10"
@@ -6167,12 +6057,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/1084a96d-e714-4475-8f79-7639f0e00e22")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6286,7 +6170,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "604dc08a-c112-4e06-aaea-c7855d5b9364")
-		(at 183 43.5 -90)
+		(at 183 43.75 -90)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP9"
@@ -6341,12 +6225,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/0aac8a37-679a-4ca5-b448-f4031886c33f")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6460,7 +6338,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "638a211a-0717-46a9-aa7e-a5228309bed6")
-		(at 119.425 -3.4625 -90)
+		(at 116.5 -5 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -6523,12 +6401,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/74d455e5-0bd5-4360-8a1b-40bc42708fc3")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6618,7 +6490,7 @@
 	(footprint "TL3305BF260QG:SW_TL3305BF260QG"
 		(layer "F.Cu")
 		(uuid "64706856-5f16-45d0-89dd-6c580dda20ce")
-		(at 207 100.9 -90)
+		(at 233.5 87.75 -90)
 		(property "Reference" "SW4"
 			(at -0.635 -4.699 90)
 			(layer "F.SilkS")
@@ -6666,12 +6538,6 @@
 		(path "/f80eec3d-f94f-49e1-9c8c-6f870d4a0aaf")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6857,15 +6723,26 @@
 			(uuid "3a2062dc-1db2-49bb-b2b7-39ba70d87fe4")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/TL3305BF260QG/TL3305BF260QG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7054d2f7-88ce-40a1-8497-c76e38d7db74")
-		(at 89.5 16)
+		(at 85 49.5 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C25"
-			(at 0 -1.68 0)
+			(at 0 -1.68 90)
 			(layer "F.SilkS")
 			(uuid "d3a96675-dc96-45aa-b6ff-cb867839ec3e")
 			(effects
@@ -6876,7 +6753,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "66288515-d2d8-4e21-a64b-2eae7093090c")
 			(effects
@@ -6887,7 +6764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aff31fac-e25e-4152-a396-11046a0931a2")
@@ -6898,7 +6775,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d5a3619-f11f-4d4a-a514-e10c78133719")
@@ -6909,7 +6786,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8cc25973-023e-446f-a82c-dc53fff757e7")
@@ -6924,24 +6801,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/82510958-f6f3-43bd-9af2-c588a060d1a9")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bef79a9a-ebce-41df-a3d7-ab76c7bb3852")
-		)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -6951,6 +6812,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fc37527e-621e-4f00-b996-a521276eeb3c")
+		)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bef79a9a-ebce-41df-a3d7-ab76c7bb3852")
 		)
 		(fp_rect
 			(start -1.88 -0.98)
@@ -6975,7 +6846,7 @@
 			(uuid "8fae3c9d-d5fa-47ec-9e36-54a0312a0667")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "aa9d39c5-f1bd-4e64-a4aa-0b9ce2d0d1c8")
 			(effects
@@ -6986,7 +6857,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.0375 0)
+			(at -1.0375 0 270)
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
@@ -6995,7 +6866,7 @@
 			(uuid "f4274ca7-9d43-40e0-b24a-889437b69866")
 		)
 		(pad "2" smd roundrect
-			(at 1.0375 0)
+			(at 1.0375 0 270)
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
@@ -7019,7 +6890,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "729d67e3-c27d-41db-97d9-e769d8e4218d")
-		(at 186.5 69 -90)
+		(at 186.5 65.25 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C39"
@@ -7082,12 +6953,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/799d8587-87a2-4798-926a-71cc6bf8b812")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7240,12 +7105,6 @@
 		(path "/704c3def-7d68-49f5-8359-ead3387d6eb3")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7335,7 +7194,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "77321aa4-d114-4bec-9804-eb3fad92bfa4")
-		(at 80.9 -7.5)
+		(at 77.975 -9.0375)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C19"
@@ -7398,12 +7257,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/8f306416-6bc3-4038-8fe0-ffa071e5ead2")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7493,7 +7346,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "793f24a0-fa42-411a-9618-f4fde7212611")
-		(at 136.5 48.5)
+		(at 137 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP5"
@@ -7548,12 +7401,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/e1839b66-f540-433f-8ad8-d2cb6a67a028")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7730,12 +7577,6 @@
 		(path "/2ab3fc51-155c-47f2-ba1e-c5295a46da13")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7888,12 +7729,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/be04c6ce-024b-4e97-affe-2bddeb496d4f")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8046,12 +7881,6 @@
 		(path "/08441e46-c5a6-4a8d-84f2-3bba6691fc43")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8193,12 +8022,6 @@
 		(path "/17a805e9-6175-4703-8092-d32f2fa9292a")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8462,11 +8285,22 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "81d2762e-8b22-40dc-801b-4fa4491aa006")
-		(at 81.8625 0)
+		(at 78.9375 -1.5375)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -8529,12 +8363,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/bb501c6e-55d2-45d3-956c-e107b731c75e")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8687,12 +8515,6 @@
 		(path "/6efde11a-b999-4e15-b925-b1a1402546f1")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8788,7 +8610,7 @@
 		(property "Reference" "U2"
 			(at 0 -11.43 0)
 			(layer "F.SilkS")
-			(uuid "bbf87dc6-055c-452e-9dbc-337c85e44015")
+			(uuid "13490601-1f6b-46bc-bcfb-20c462d16798")
 			(effects
 				(font
 					(size 1 1)
@@ -8799,7 +8621,7 @@
 		(property "Value" "NHD-C0220BIZ"
 			(at 0 19.5 0)
 			(layer "F.Fab")
-			(uuid "7b7a9584-5e47-4321-95b7-a8ed25842814")
+			(uuid "f38ff438-7a21-4ec5-8a51-02a8645da7fa")
 			(effects
 				(font
 					(size 1 1)
@@ -8812,7 +8634,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43027341-4e21-460c-8051-7565bcc2e095")
+			(uuid "2073bb63-556e-4221-807f-d7480c8d465a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +8647,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3369c6cb-5631-4e9f-8d2d-1fc2e4fdc62e")
+			(uuid "65ce369f-d4e9-4f6b-9921-afe72deaee70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,12 +8659,6 @@
 		(path "/45ad98bb-4a82-43ee-9405-92ee08c3ec8e")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1" "6" "5" "4" "7" "8" "9" "10")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9855,7 +9671,7 @@
 		(uuid "85978868-3e67-4736-8913-e71a69aa4303")
 		(at 65.5 30.475 180)
 		(property "Reference" "J1"
-			(at -6 1 0)
+			(at -4.5 -6.025 0)
 			(layer "F.SilkS")
 			(uuid "06137956-d9f1-4997-a079-96cab15a98f1")
 			(effects
@@ -9902,12 +9718,6 @@
 		(path "/dcf68bd6-ff70-4f28-b420-abafa260debf")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "A12" "B12" "A9" "B9" "A5" "B5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10100,54 +9910,77 @@
 			(solder_mask_margin 0.102)
 			(uuid "3097bb98-afca-40e3-ac4a-b847add4a801")
 		)
-		(pad "SH1" thru_hole oval
+		(pad "SH" thru_hole oval
 			(at -4.32 -3.8 180)
 			(size 1.1 1.7)
 			(drill oval 0.6 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "fc5e5036-f741-4fe1-86cf-0bce8295eb72")
 		)
-		(pad "SH2" thru_hole oval
+		(pad "SH" thru_hole oval
 			(at -4.32 0 180)
 			(size 1.1 1.7)
 			(drill oval 0.6 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "f794d7fb-045b-46fe-9db1-998e1c87f32e")
 		)
-		(pad "SH3" thru_hole oval
+		(pad "SH" thru_hole oval
 			(at 4.32 -3.8 180)
 			(size 1.1 1.7)
 			(drill oval 0.6 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "d0ff6de5-eacf-45ff-89c6-647f8e1ef5d2")
 		)
-		(pad "SH4" thru_hole oval
+		(pad "SH" thru_hole oval
 			(at 4.32 0 180)
 			(size 1.1 1.7)
 			(drill oval 0.6 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "d20feca3-230d-4540-9d33-f3c93d08e9f7")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/UJC-H-G-SMT-2-P6-TR/UJC-H-G-SMT-2-P6-TR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8c523384-8e5e-4067-bee8-68adf6b12088")
-		(at 173 98)
+		(at 51 99 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "9a614170-3a7a-4b9f-8dc0-a7bf524428fa")
+			(uuid "6bfa1983-3f05-4c5d-9cf0-a3cece367a89")
 			(effects
 				(font
 					(size 1 1)
@@ -10158,7 +9991,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "512e0a23-c66e-446a-999d-7f8b46985a2c")
+			(uuid "ed3632de-1eff-4bfc-9bbe-b026a8c2300f")
 			(effects
 				(font
 					(size 1 1)
@@ -10170,7 +10003,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ee3fd56-9a00-4161-8c18-07b232294b5f")
+			(uuid "1d5d0e20-6fab-45b5-b4b2-ca3e8245cac6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10014,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51adcb7f-4a30-4d13-8868-2591b721c28d")
+			(uuid "5a8aefef-8c26-4fe3-ba5d-e6a749e0f355")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,24 +10037,8 @@
 		(path "/ae39833b-1e4d-43a9-a67c-12baa6f61ff2")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.146267 -0.51)
-			(end 0.146267 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e4152362-9ba3-40d0-99cd-382ae7c5e8ac")
-		)
 		(fp_line
 			(start -0.146267 0.51)
 			(end 0.146267 0.51)
@@ -10231,6 +10048,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b793317a-312a-4ba4-8dce-5d41614a4369")
+		)
+		(fp_line
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e4152362-9ba3-40d0-99cd-382ae7c5e8ac")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -10266,7 +10093,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0)
+			(at -0.8625 0 180)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10275,7 +10102,7 @@
 			(uuid "2b21e5a8-fb94-4fd1-b98f-2f5932ef51bf")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0)
+			(at 0.8625 0 180)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10362,12 +10189,6 @@
 		(path "/4ca0623c-24ea-4683-939a-45cd809062f0")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10457,7 +10278,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "8de43922-48b0-4b8c-8739-588c3613febf")
-		(at 147 51)
+		(at 133 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP7"
@@ -10512,12 +10333,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/5b06ec47-7996-40f3-8d8d-b18c5dd31f95")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -10631,11 +10446,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8eb17f80-e419-4152-b964-521a18ba0689")
-		(at 29 121)
+		(at 16.75 117.5 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "6592964a-318f-4e58-aa55-7350a96eea9c")
 			(effects
@@ -10646,7 +10461,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ca9a8936-02cb-46db-b58c-5d2852738757")
 			(effects
@@ -10657,7 +10472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56f72784-e253-4ada-b6f0-66cbc17498f2")
@@ -10668,7 +10483,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8923a2a-6e0d-41a7-b9a7-956f240a948c")
@@ -10679,7 +10494,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8497cb82-96ce-4072-84b6-8d57a1f57b78")
@@ -10694,12 +10509,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/d531adba-b2ab-4987-8480-3bfc7e2e7a9e")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10745,7 +10554,7 @@
 			(uuid "7ec54533-2ed2-4e18-8598-50cd62a108a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "1f05db4c-0dcc-4d03-8b89-2b8da7d18020")
 			(effects
@@ -10756,7 +10565,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 90)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10765,7 +10574,7 @@
 			(uuid "29c184da-96c8-4ea9-a706-1e4d5bbf3216")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 90)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10789,7 +10598,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8f88ea05-8f9f-4e5f-b9e2-6f1e8e4dcf16")
-		(at 135.5 76.5875 -90)
+		(at 141 70.5875 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
@@ -10852,12 +10661,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/92508cf8-4f94-4991-b927-5a9f29474a1f")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11010,12 +10813,6 @@
 		(path "/17d4fd5e-4f7b-4b81-b0b2-62d7c23b4eb1")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2" "4" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11412,12 +11209,6 @@
 		(path "/a46aae3c-5734-4365-99c3-8baff94bf581")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11511,7 +11302,7 @@
 		(property "Reference" "J2"
 			(at -8.825 6.365 0)
 			(layer "F.SilkS")
-			(uuid "11fbbbf0-711f-4ec3-b664-4ceb2c5d7409")
+			(uuid "dce29222-e3c0-4f7f-94e1-f8d12edd11cf")
 			(effects
 				(font
 					(size 1 1)
@@ -11522,7 +11313,7 @@
 		(property "Value" "Conn_Coaxial_x2"
 			(at -1.84 7.865 0)
 			(layer "F.Fab")
-			(uuid "d838912b-0bd6-4b0c-a2d4-bfc459b1cab9")
+			(uuid "a8568a15-8b64-4c75-a544-7be42be40b0c")
 			(effects
 				(font
 					(size 1 1)
@@ -11534,7 +11325,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95f8c9ed-fb85-4307-a537-e15255d7cdd3")
+			(uuid "3ccd844b-b002-47bc-af54-e68f97104050")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11545,7 +11336,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aefa43ff-a9cf-4713-99f1-c712301d6b51")
+			(uuid "c98e4682-a6c2-4a1d-a349-42a101f79d85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,12 +11347,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/846acc11-facf-49c9-9da1-3257f7349901")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11924,11 +11709,22 @@
 			(uuid "c2e548e7-69bf-4ba7-8945-ceba1b7f24c7")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/RCJ_2223/RCJ-2223.step"
+			(offset
+				(xyz 0 5.5 14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9883c29f-aa23-41f4-a46e-f733f8f578a6")
-		(at 109.925 -0.9625 180)
+		(at 107 -2.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C22"
@@ -11991,12 +11787,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/b74b795b-7869-46f0-aa8b-e57f98a03389")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12149,12 +11939,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/736413b4-878d-451f-947d-3da74a0f448b")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12244,7 +12028,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9b93928c-37d8-4b6a-8016-b88a0a3a2022")
-		(at 187.5 63)
+		(at 187.5 60.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C47"
@@ -12307,12 +12091,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/daa8900f-17c5-495f-bd6e-bb8753a17a1f")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12402,11 +12180,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9bdb20a5-6bd6-458d-bdaf-ca0b06e0982e")
-		(at 187.5 64.5)
+		(at 183.75 56)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C48"
-			(at 0 1.5 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "72ccfef9-eeb2-4ea1-8902-2f5057ae26df")
 			(effects
@@ -12465,12 +12243,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/37f30450-2682-43be-9a52-f348d870d133")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12560,11 +12332,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9fe36a5a-3dce-4e76-9470-d91874b6913b")
-		(at 178 58 180)
+		(at 176 59.75 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C43"
-			(at 0.5 1.5 0)
+			(at 0.5 1.5 90)
 			(layer "F.SilkS")
 			(uuid "49e090e4-800d-4f33-a7cf-3e6b8bad2f16")
 			(effects
@@ -12575,7 +12347,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a6f6266a-bed3-4e76-b64a-cb6524b33006")
 			(effects
@@ -12586,7 +12358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1eb93a2-63dc-4703-b4d4-a07d64c40bf5")
@@ -12597,7 +12369,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea003ecb-7d85-47ab-8ced-d207ed5f6517")
@@ -12608,7 +12380,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e2884123-5e8b-4e2c-b5ec-cd1fd7107711")
@@ -12623,12 +12395,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/b6254576-c858-41fa-aa6d-6d96f6752dbc")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12674,7 +12440,7 @@
 			(uuid "1c1938d2-4887-45f3-8c63-64f30679b5bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "fc4b4545-c169-4f6c-9b85-a8a0b029e6ff")
 			(effects
@@ -12685,7 +12451,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0 180)
+			(at -0.8625 0 270)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12694,7 +12460,7 @@
 			(uuid "4ba6ed38-2999-4fb2-8dd5-583170839f2b")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0 180)
+			(at 0.8625 0 270)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12766,12 +12532,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/fb787ddf-68d5-4d97-9a17-7d4310ace23d")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13017,6 +12777,17 @@
 			(uuid "c2f6467a-dc0f-4882-a1bd-f1b93234f0f3")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/JS102011SAQN/JS102011SAQN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -13084,12 +12855,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/b5316096-cff3-4435-b6c3-64b1d4677647")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13179,7 +12944,7 @@
 	(footprint "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
 		(layer "F.Cu")
 		(uuid "a2fbb383-64f3-4c65-82c5-da94477b296f")
-		(at 193.5 99.5 -90)
+		(at 188.75 104.04 -90)
 		(descr "5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf")
 		(tags "TSOT-23 Hand-soldering")
 		(property "Reference" "Q1"
@@ -13233,12 +12998,6 @@
 		(path "/26eb4428-7d9b-4f78-9eee-95a7ef1cf0f4")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13503,12 +13262,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/02ef8ecf-e452-4e1d-9507-8f16139b3aab")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13598,7 +13351,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "a5a93cc9-cc35-4eb2-9149-ae16cc00f99d")
-		(at 89 46.5)
+		(at 89 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP1"
@@ -13653,12 +13406,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/90cb9362-e275-47d5-a0ed-332f2bfda278")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13772,7 +13519,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a727bafa-fcfb-47da-99fe-8032c4b6b368")
-		(at 177.5 100)
+		(at 178.6375 115.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
@@ -13835,12 +13582,6 @@
 		(path "/ded74216-704f-415d-abd4-4b932dbf4a70")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13930,11 +13671,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a7359708-07da-422e-b6da-fbd62395d84a")
-		(at 139.95 102)
+		(at 135 66.4125 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "cd19988b-18cb-44c1-bbb0-3b346ce8454c")
 			(effects
@@ -13945,7 +13686,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2ec0e2b8-a568-4111-9c6c-f8df99bc8bef")
 			(effects
@@ -13956,7 +13697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58378ff2-9505-4f66-86e2-36012fd2242a")
@@ -13967,7 +13708,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8005c60-9136-442c-9ac0-9f5d4fdae9db")
@@ -13978,7 +13719,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "812ccfac-8445-48c6-8939-58db13998388")
@@ -13993,24 +13734,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/125097b3-bd09-493a-bfda-842708c71064")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9df8f1ba-9b05-441a-a3b6-10c8dd684f3f")
-		)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -14020,6 +13745,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "eba4a6dd-51c3-4839-9c44-ef90b257fc04")
+		)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9df8f1ba-9b05-441a-a3b6-10c8dd684f3f")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -14044,7 +13779,7 @@
 			(uuid "02264191-26fe-4f0f-bcb7-08ab03059d57")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "e3cb134e-1d49-45da-9230-b16aa86fae48")
 			(effects
@@ -14055,7 +13790,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14064,7 +13799,7 @@
 			(uuid "5b1a1f99-7dde-4f15-8e26-e8bf4d8b37cb")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14151,12 +13886,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/80f759f8-7614-4ae3-8efd-764460ba3339")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14298,12 +14027,6 @@
 		(path "/81a2afe0-1a42-4083-88a4-020759b6335e")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14567,11 +14290,22 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "aced94c6-3cdf-47d7-aeb7-f811f0e5a1f7")
-		(at 119.3625 60)
+		(at 84.1375 57.75)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C27"
@@ -14634,12 +14368,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/153d4b75-e563-4878-b2f3-e824f581f5ec")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14817,12 +14545,6 @@
 		(path "/02fbcd05-aaf8-4411-95a8-a5d626bdf8c7")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15077,6 +14799,24 @@
 			(layer "F.Fab")
 			(uuid "e8af2e88-006b-47ff-b8d1-a13fe0fcc024")
 		)
+		(pad "" thru_hole oval
+			(at -4.4 0 90)
+			(size 2.3 4.6)
+			(drill oval 1.8 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "13f73cd4-6113-452e-bab0-43d4079352fa")
+		)
+		(pad "" thru_hole oval
+			(at 4.4 0 90)
+			(size 2.3 4.6)
+			(drill oval 1.8 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "d1d01be7-7f08-4f0c-a33d-e28e182cdfb3")
+		)
 		(pad "1" thru_hole rect
 			(at -2.5 7 90)
 			(size 1.508 1.508)
@@ -15113,25 +14853,18 @@
 			(solder_mask_margin 0.102)
 			(uuid "65ef0985-2335-455c-841d-a1e068353dcc")
 		)
-		(pad "S1" thru_hole oval
-			(at -4.4 0 90)
-			(size 2.3 4.6)
-			(drill oval 1.8 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "13f73cd4-6113-452e-bab0-43d4079352fa")
-		)
-		(pad "S2" thru_hole oval
-			(at 4.4 0 90)
-			(size 2.3 4.6)
-			(drill oval 1.8 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "d1d01be7-7f08-4f0c-a33d-e28e182cdfb3")
-		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/PT01_D115D_B503/PT01-D115D-B503.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TL3305BF260QG:SW_TL3305BF260QG"
 		(layer "F.Cu")
@@ -15184,12 +14917,6 @@
 		(path "/e5130cdb-98c9-4caa-949d-866f4e98d2f6")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15375,6 +15102,17 @@
 			(uuid "9e78c977-7fe0-46d5-89c8-754757fb9ec7")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/TL3305BF260QG/TL3305BF260QG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -15442,12 +15180,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/5f36d05e-9fd3-40b8-b8da-16a35fe52d31")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15537,7 +15269,7 @@
 	(footprint "Module:RaspberryPi_Pico_Common_Unspecified"
 		(layer "F.Cu")
 		(uuid "b98d1e8f-f37d-4d15-97d0-607cdc7709f8")
-		(at 100.9625 178 -90)
+		(at 165.7125 87 -90)
 		(descr "Raspberry Pi Pico versatile common (Pico & Pico W) footprint for surface-mount or through-hole hand soldering, supports Raspberry Pi Pico 2, default socketed model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 		(tags "module usb pcb antenna")
 		(property "Reference" "U3"
@@ -15593,15 +15325,6 @@
 		(path "/766712b7-c4fa-4acb-98ca-7de5cf0866ec")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "30" "37" "1" "2" "4" "5" "6" "7" "9" "10" "11" "12" "14" "15"
-					"16" "17" "19" "20" "39" "40" "23" "3" "8" "38" "13" "28" "18" "36"
-					"21" "22" "24" "25" "26" "27" "29" "35" "31" "32" "34" "33"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17183,7 +16906,7 @@
 			(at -9.69 -24.13 270)
 			(size 1.6 0.8)
 			(layers "F.Cu" "F.Mask")
-			(net "/BUT1")
+			(net "unconnected-(U3-GPIO0-Pad1)")
 			(pinfunction "GPIO0_1")
 			(pintype "bidirectional")
 			(options
@@ -17226,7 +16949,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
-			(net "/BUT1")
+			(net "unconnected-(U3-GPIO0-Pad1)")
 			(pinfunction "GPIO0_1")
 			(pintype "bidirectional")
 			(uuid "8dd24147-bb65-4d96-a662-6a585f38b965")
@@ -17236,7 +16959,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "/BUT2")
+			(net "unconnected-(U3-GPIO1-Pad2)")
 			(pinfunction "GPIO1_2")
 			(pintype "bidirectional")
 			(uuid "4f6df4fe-38d0-4789-998c-c355fce0e4d8")
@@ -17247,7 +16970,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/BUT2")
+			(net "unconnected-(U3-GPIO1-Pad2)")
 			(pinfunction "GPIO1_2")
 			(pintype "bidirectional")
 			(uuid "716183a7-4077-4541-921a-ab297b2fe5f8")
@@ -17333,7 +17056,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO2-Pad4)")
+			(net "/DAC/DAC_LRCK")
 			(pinfunction "GPIO2_4")
 			(pintype "bidirectional")
 			(uuid "3a6010a0-1b6d-4178-b353-526132cab427")
@@ -17344,7 +17067,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO2-Pad4)")
+			(net "/DAC/DAC_LRCK")
 			(pinfunction "GPIO2_4")
 			(pintype "bidirectional")
 			(uuid "991e8127-8f58-4ac6-a5c4-22112fe1255e")
@@ -17354,7 +17077,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO3-Pad5)")
+			(net "/DAC/DAC_DIN")
 			(pinfunction "GPIO3_5")
 			(pintype "bidirectional")
 			(uuid "d798b466-6bab-40a0-a612-da0bbf46d825")
@@ -17365,7 +17088,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO3-Pad5)")
+			(net "/DAC/DAC_DIN")
 			(pinfunction "GPIO3_5")
 			(pintype "bidirectional")
 			(uuid "601028f0-301c-4437-958a-4a22c8a7ed15")
@@ -17375,7 +17098,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO4-Pad6)")
+			(net "/DAC/DAC_BCK")
 			(pinfunction "GPIO4_6")
 			(pintype "bidirectional")
 			(uuid "9805fca5-c56d-4114-a3d2-1a158eda96d1")
@@ -17386,7 +17109,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO4-Pad6)")
+			(net "/DAC/DAC_BCK")
 			(pinfunction "GPIO4_6")
 			(pintype "bidirectional")
 			(uuid "f894ec65-5195-45cd-b016-b9142d67194c")
@@ -17396,7 +17119,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO5-Pad7)")
+			(net "/DAC/DAC_SCK")
 			(pinfunction "GPIO5_7")
 			(pintype "bidirectional")
 			(uuid "09a25939-5d05-4058-9d61-346eb372269d")
@@ -17407,7 +17130,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO5-Pad7)")
+			(net "/DAC/DAC_SCK")
 			(pinfunction "GPIO5_7")
 			(pintype "bidirectional")
 			(uuid "f599fc66-17a8-419a-9b60-50a666f3fc42")
@@ -17493,7 +17216,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO6-Pad9)")
+			(net "/ADC/ADC_INT")
 			(pinfunction "GPIO6_9")
 			(pintype "bidirectional")
 			(uuid "21604b39-2659-4ede-a670-dafb74e8bd5c")
@@ -17504,7 +17227,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO6-Pad9)")
+			(net "/ADC/ADC_INT")
 			(pinfunction "GPIO6_9")
 			(pintype "bidirectional")
 			(uuid "a8dedb9a-9a6c-4e95-8155-c1ed54cb2002")
@@ -17514,7 +17237,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO7-Pad10)")
+			(net "/ADC/ADC_CH0")
 			(pinfunction "GPIO7_10")
 			(pintype "bidirectional")
 			(uuid "8eb821a5-dff2-4c5b-9b50-a34040e967c5")
@@ -17525,7 +17248,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO7-Pad10)")
+			(net "/ADC/ADC_CH0")
 			(pinfunction "GPIO7_10")
 			(pintype "bidirectional")
 			(uuid "369f75f7-dfb4-4c8b-8c30-61de6b18df22")
@@ -17535,7 +17258,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO8-Pad11)")
+			(net "/ADC/ADC_CH1")
 			(pinfunction "GPIO8_11")
 			(pintype "bidirectional")
 			(uuid "f40b9343-a245-4adc-bdd4-036b9c2de932")
@@ -17546,7 +17269,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO8-Pad11)")
+			(net "/ADC/ADC_CH1")
 			(pinfunction "GPIO8_11")
 			(pintype "bidirectional")
 			(uuid "1594be16-2323-4407-a9d3-fe1f61a5cb96")
@@ -17556,7 +17279,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO9-Pad12)")
+			(net "/ADC/ADC_CH2")
 			(pinfunction "GPIO9_12")
 			(pintype "bidirectional")
 			(uuid "e2f41f4d-5ef8-41c2-bd49-a92316b4d05a")
@@ -17567,7 +17290,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO9-Pad12)")
+			(net "/ADC/ADC_CH2")
 			(pinfunction "GPIO9_12")
 			(pintype "bidirectional")
 			(uuid "cc1b19ff-e08d-4e38-bab0-7003f07e2f19")
@@ -17674,7 +17397,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO11-Pad15)")
+			(net "/ADC/ADC_DOUT")
 			(pinfunction "GPIO11_15")
 			(pintype "bidirectional")
 			(uuid "54232aed-70bf-4bfa-93d2-0e3e3d3e52a3")
@@ -17685,7 +17408,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO11-Pad15)")
+			(net "/ADC/ADC_DOUT")
 			(pinfunction "GPIO11_15")
 			(pintype "bidirectional")
 			(uuid "3511097f-6420-432d-a49c-a69878d85928")
@@ -17695,7 +17418,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO12-Pad16)")
+			(net "/ADC/ADC_BCK")
 			(pinfunction "GPIO12_16")
 			(pintype "bidirectional")
 			(uuid "259d3ee1-0f2f-4dc6-9800-286ab913f10f")
@@ -17706,7 +17429,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO12-Pad16)")
+			(net "/ADC/ADC_BCK")
 			(pinfunction "GPIO12_16")
 			(pintype "bidirectional")
 			(uuid "796c79d1-1f35-479f-b5ed-8608261db3b0")
@@ -17716,7 +17439,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO13-Pad17)")
+			(net "/ADC/ADC_LRCK")
 			(pinfunction "GPIO13_17")
 			(pintype "bidirectional")
 			(uuid "601dac1c-69b4-49b4-857b-87d59b90182e")
@@ -17727,7 +17450,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO13-Pad17)")
+			(net "/ADC/ADC_LRCK")
 			(pinfunction "GPIO13_17")
 			(pintype "bidirectional")
 			(uuid "d9802c0d-57d3-4942-85d0-4dee0174367c")
@@ -17813,7 +17536,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO14-Pad19)")
+			(net "/ADC/ADC_CLOCK")
 			(pinfunction "GPIO14_19")
 			(pintype "bidirectional")
 			(uuid "de19b0b4-7302-408b-8722-85e0eb87f9f5")
@@ -17824,7 +17547,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO14-Pad19)")
+			(net "/ADC/ADC_CLOCK")
 			(pinfunction "GPIO14_19")
 			(pintype "bidirectional")
 			(uuid "f831e5e7-59db-4d92-a09b-358d492b7cdb")
@@ -17995,7 +17718,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO19-Pad25)")
+			(net "/BUT1")
 			(pinfunction "GPIO19_25")
 			(pintype "bidirectional")
 			(uuid "60c0c7aa-3395-45cc-a739-e061be4514ae")
@@ -18005,7 +17728,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO19-Pad25)")
+			(net "/BUT1")
 			(pinfunction "GPIO19_25")
 			(pintype "bidirectional")
 			(uuid "138b9b24-c09f-420c-8525-78b8a6e74390")
@@ -18016,7 +17739,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO20-Pad26)")
+			(net "/BUT2")
 			(pinfunction "GPIO20_26")
 			(pintype "bidirectional")
 			(uuid "8ac54493-b202-4497-bfdf-d1cc0a24c72d")
@@ -18026,7 +17749,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO20-Pad26)")
+			(net "/BUT2")
 			(pinfunction "GPIO20_26")
 			(pintype "bidirectional")
 			(uuid "b1710958-061e-4b50-b835-6cdddf098cc3")
@@ -18037,7 +17760,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO21-Pad27)")
+			(net "/BUT3")
 			(pinfunction "GPIO21_27")
 			(pintype "bidirectional")
 			(uuid "35a02bd8-7251-4b32-ad78-0f63141c3f63")
@@ -18047,7 +17770,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO21-Pad27)")
+			(net "/BUT3")
 			(pinfunction "GPIO21_27")
 			(pintype "bidirectional")
 			(uuid "5ab531fb-68a0-4028-b233-9bd9f5369fef")
@@ -18134,7 +17857,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U3-GPIO22-Pad29)")
+			(net "/BUT4")
 			(pinfunction "GPIO22_29")
 			(pintype "bidirectional")
 			(uuid "6ae1bc28-1f1e-4b5f-85c7-fd1f1a89e49a")
@@ -18144,7 +17867,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U3-GPIO22-Pad29)")
+			(net "/BUT4")
 			(pinfunction "GPIO22_29")
 			(pintype "bidirectional")
 			(uuid "9a820526-e769-4137-ae31-2901e067d960")
@@ -18517,8 +18240,8 @@
 			)
 			(polygon
 				(pts
-					(xy 75.972605 175.6) (xy 79.622605 170.9) (xy 83.9625 170.9) (xy 83.9625 185.1) (xy 79.622605 185.1)
-					(xy 75.972605 180.4) (xy 74.9625 180.4) (xy 74.9625 175.6)
+					(xy 140.722605 84.6) (xy 144.372605 79.9) (xy 148.7125 79.9) (xy 148.7125 94.1) (xy 144.372605 94.1)
+					(xy 140.722605 89.4) (xy 139.7125 89.4) (xy 139.7125 84.6)
 				)
 			)
 		)
@@ -18549,10 +18272,10 @@
 			)
 			(polygon
 				(pts
-					(xy 94.2751 179.3715) (xy 94.2751 178.5841) (xy 96.2499 178.5841) (xy 96.2499 179.3715) (xy 96.247978 179.4109)
-					(xy 96.217823 179.483702) (xy 96.162102 179.539423) (xy 96.0893 179.569578) (xy 96.0499 179.5715)
-					(xy 94.4751 179.5715) (xy 94.4357 179.569578) (xy 94.362898 179.539423) (xy 94.307177 179.483702)
-					(xy 94.277022 179.4109)
+					(xy 159.0251 88.3715) (xy 159.0251 87.5841) (xy 160.9999 87.5841) (xy 160.9999 88.3715) (xy 160.997978 88.4109)
+					(xy 160.967823 88.483702) (xy 160.912102 88.539423) (xy 160.8393 88.569578) (xy 160.7999 88.5715)
+					(xy 159.2251 88.5715) (xy 159.1857 88.569578) (xy 159.112898 88.539423) (xy 159.057177 88.483702)
+					(xy 159.027022 88.4109)
 				)
 			)
 		)
@@ -18583,9 +18306,9 @@
 			)
 			(polygon
 				(pts
-					(xy 96.162102 177.628778) (xy 96.217822 177.684498) (xy 96.247978 177.7573) (xy 96.2499 177.7967)
-					(xy 96.2499 178.5841) (xy 94.2751 178.5841) (xy 94.2751 177.7967) (xy 94.277022 177.7573) (xy 94.307178 177.684498)
-					(xy 94.362898 177.628778) (xy 94.4357 177.598622) (xy 94.4751 177.5967) (xy 96.0499 177.5967) (xy 96.0893 177.598622)
+					(xy 160.912102 86.628778) (xy 160.967822 86.684498) (xy 160.997978 86.7573) (xy 160.9999 86.7967)
+					(xy 160.9999 87.5841) (xy 159.0251 87.5841) (xy 159.0251 86.7967) (xy 159.027022 86.7573) (xy 159.057178 86.684498)
+					(xy 159.112898 86.628778) (xy 159.1857 86.598622) (xy 159.2251 86.5967) (xy 160.7999 86.5967) (xy 160.8393 86.598622)
 				)
 			)
 		)
@@ -18616,11 +18339,11 @@
 			)
 			(polygon
 				(pts
-					(xy 105.0125 179) (xy 105.0125 179.45) (xy 105.014639 179.515545) (xy 105.048567 179.642167) (xy 105.114112 179.755694)
-					(xy 105.206806 179.848388) (xy 105.320333 179.913933) (xy 105.446955 179.947861) (xy 105.5125 179.95)
-					(xy 106.4125 179.95) (xy 106.478045 179.947861) (xy 106.604667 179.913933) (xy 106.718194 179.848388)
-					(xy 106.810888 179.755694) (xy 106.876433 179.642167) (xy 106.910361 179.515545) (xy 106.9125 179.45)
-					(xy 106.9125 179)
+					(xy 169.7625 88) (xy 169.7625 88.45) (xy 169.764639 88.515545) (xy 169.798567 88.642167) (xy 169.864112 88.755694)
+					(xy 169.956806 88.848388) (xy 170.070333 88.913933) (xy 170.196955 88.947861) (xy 170.2625 88.95)
+					(xy 171.1625 88.95) (xy 171.228045 88.947861) (xy 171.354667 88.913933) (xy 171.468194 88.848388)
+					(xy 171.560888 88.755694) (xy 171.626433 88.642167) (xy 171.660361 88.515545) (xy 171.6625 88.45)
+					(xy 171.6625 88)
 				)
 			)
 		)
@@ -18651,11 +18374,11 @@
 			)
 			(polygon
 				(pts
-					(xy 106.478045 178.052139) (xy 106.604667 178.086068) (xy 106.718194 178.151612) (xy 106.810888 178.244306)
-					(xy 106.876432 178.357833) (xy 106.910361 178.484455) (xy 106.9125 178.55) (xy 106.9125 179) (xy 105.0125 179)
-					(xy 105.0125 178.55) (xy 105.014639 178.484455) (xy 105.048568 178.357833) (xy 105.114112 178.244306)
-					(xy 105.206806 178.151612) (xy 105.320333 178.086068) (xy 105.446955 178.052139) (xy 105.5125 178.05)
-					(xy 106.4125 178.05)
+					(xy 171.228045 87.052139) (xy 171.354667 87.086068) (xy 171.468194 87.151612) (xy 171.560888 87.244306)
+					(xy 171.626432 87.357833) (xy 171.660361 87.484455) (xy 171.6625 87.55) (xy 171.6625 88) (xy 169.7625 88)
+					(xy 169.7625 87.55) (xy 169.764639 87.484455) (xy 169.798568 87.357833) (xy 169.864112 87.244306)
+					(xy 169.956806 87.151612) (xy 170.070333 87.086068) (xy 170.196955 87.052139) (xy 170.2625 87.05)
+					(xy 171.1625 87.05)
 				)
 			)
 		)
@@ -18686,11 +18409,11 @@
 			)
 			(polygon
 				(pts
-					(xy 111.014639 174.984455) (xy 111.048568 174.857833) (xy 111.114112 174.744306) (xy 111.206806 174.651612)
-					(xy 111.320333 174.586068) (xy 111.446955 174.552139) (xy 111.5125 174.55) (xy 115.2125 174.55)
-					(xy 115.2125 176.45) (xy 111.5125 176.45) (xy 111.446955 176.447861) (xy 111.320333 176.413932)
-					(xy 111.206806 176.348388) (xy 111.114112 176.255694) (xy 111.048568 176.142167) (xy 111.014639 176.015545)
-					(xy 111.0125 175.95) (xy 111.0125 175.05)
+					(xy 175.764639 83.984455) (xy 175.798568 83.857833) (xy 175.864112 83.744306) (xy 175.956806 83.651612)
+					(xy 176.070333 83.586068) (xy 176.196955 83.552139) (xy 176.2625 83.55) (xy 179.9625 83.55) (xy 179.9625 85.45)
+					(xy 176.2625 85.45) (xy 176.196955 85.447861) (xy 176.070333 85.413932) (xy 175.956806 85.348388)
+					(xy 175.864112 85.255694) (xy 175.798568 85.142167) (xy 175.764639 85.015545) (xy 175.7625 84.95)
+					(xy 175.7625 84.05)
 				)
 			)
 		)
@@ -18721,11 +18444,11 @@
 			)
 			(polygon
 				(pts
-					(xy 115.2125 176.45) (xy 118.9125 176.45) (xy 118.978045 176.447861) (xy 119.104667 176.413933)
-					(xy 119.218194 176.348388) (xy 119.310888 176.255694) (xy 119.376433 176.142167) (xy 119.410361 176.015545)
-					(xy 119.4125 175.95) (xy 119.4125 175.05) (xy 119.410361 174.984455) (xy 119.376433 174.857833)
-					(xy 119.310888 174.744306) (xy 119.218194 174.651612) (xy 119.104667 174.586067) (xy 118.978045 174.552139)
-					(xy 118.9125 174.55) (xy 115.2125 174.55)
+					(xy 179.9625 85.45) (xy 183.6625 85.45) (xy 183.728045 85.447861) (xy 183.854667 85.413933) (xy 183.968194 85.348388)
+					(xy 184.060888 85.255694) (xy 184.126433 85.142167) (xy 184.160361 85.015545) (xy 184.1625 84.95)
+					(xy 184.1625 84.05) (xy 184.160361 83.984455) (xy 184.126433 83.857833) (xy 184.060888 83.744306)
+					(xy 183.968194 83.651612) (xy 183.854667 83.586067) (xy 183.728045 83.552139) (xy 183.6625 83.55)
+					(xy 179.9625 83.55)
 				)
 			)
 		)
@@ -18756,11 +18479,11 @@
 			)
 			(polygon
 				(pts
-					(xy 121.0125 178) (xy 121.0125 178.45) (xy 121.014639 178.515545) (xy 121.048567 178.642167) (xy 121.114112 178.755694)
-					(xy 121.206806 178.848388) (xy 121.320333 178.913933) (xy 121.446955 178.947861) (xy 121.5125 178.95)
-					(xy 122.4125 178.95) (xy 122.478045 178.947861) (xy 122.604667 178.913933) (xy 122.718194 178.848388)
-					(xy 122.810888 178.755694) (xy 122.876433 178.642167) (xy 122.910361 178.515545) (xy 122.9125 178.45)
-					(xy 122.9125 178)
+					(xy 185.7625 87) (xy 185.7625 87.45) (xy 185.764639 87.515545) (xy 185.798567 87.642167) (xy 185.864112 87.755694)
+					(xy 185.956806 87.848388) (xy 186.070333 87.913933) (xy 186.196955 87.947861) (xy 186.2625 87.95)
+					(xy 187.1625 87.95) (xy 187.228045 87.947861) (xy 187.354667 87.913933) (xy 187.468194 87.848388)
+					(xy 187.560888 87.755694) (xy 187.626433 87.642167) (xy 187.660361 87.515545) (xy 187.6625 87.45)
+					(xy 187.6625 87)
 				)
 			)
 		)
@@ -18791,11 +18514,11 @@
 			)
 			(polygon
 				(pts
-					(xy 122.478045 177.052139) (xy 122.604667 177.086068) (xy 122.718194 177.151612) (xy 122.810888 177.244306)
-					(xy 122.876432 177.357833) (xy 122.910361 177.484455) (xy 122.9125 177.55) (xy 122.9125 178) (xy 121.0125 178)
-					(xy 121.0125 177.55) (xy 121.014639 177.484455) (xy 121.048568 177.357833) (xy 121.114112 177.244306)
-					(xy 121.206806 177.151612) (xy 121.320333 177.086068) (xy 121.446955 177.052139) (xy 121.5125 177.05)
-					(xy 122.4125 177.05)
+					(xy 187.228045 86.052139) (xy 187.354667 86.086068) (xy 187.468194 86.151612) (xy 187.560888 86.244306)
+					(xy 187.626432 86.357833) (xy 187.660361 86.484455) (xy 187.6625 86.55) (xy 187.6625 87) (xy 185.7625 87)
+					(xy 185.7625 86.55) (xy 185.764639 86.484455) (xy 185.798568 86.357833) (xy 185.864112 86.244306)
+					(xy 185.956806 86.151612) (xy 186.070333 86.086068) (xy 186.196955 86.052139) (xy 186.2625 86.05)
+					(xy 187.1625 86.05)
 				)
 			)
 		)
@@ -18826,11 +18549,11 @@
 			)
 			(polygon
 				(pts
-					(xy 124.2975 179) (xy 124.2975 179.45) (xy 124.299639 179.515545) (xy 124.333567 179.642167) (xy 124.399112 179.755694)
-					(xy 124.491806 179.848388) (xy 124.605333 179.913933) (xy 124.731955 179.947861) (xy 124.7975 179.95)
-					(xy 125.6975 179.95) (xy 125.763045 179.947861) (xy 125.889667 179.913933) (xy 126.003194 179.848388)
-					(xy 126.095888 179.755694) (xy 126.161433 179.642167) (xy 126.195361 179.515545) (xy 126.1975 179.45)
-					(xy 126.1975 179)
+					(xy 189.0475 88) (xy 189.0475 88.45) (xy 189.049639 88.515545) (xy 189.083567 88.642167) (xy 189.149112 88.755694)
+					(xy 189.241806 88.848388) (xy 189.355333 88.913933) (xy 189.481955 88.947861) (xy 189.5475 88.95)
+					(xy 190.4475 88.95) (xy 190.513045 88.947861) (xy 190.639667 88.913933) (xy 190.753194 88.848388)
+					(xy 190.845888 88.755694) (xy 190.911433 88.642167) (xy 190.945361 88.515545) (xy 190.9475 88.45)
+					(xy 190.9475 88)
 				)
 			)
 		)
@@ -18861,11 +18584,11 @@
 			)
 			(polygon
 				(pts
-					(xy 124.3125 177) (xy 124.3125 177.45) (xy 124.314639 177.515545) (xy 124.348567 177.642167) (xy 124.414112 177.755694)
-					(xy 124.506806 177.848388) (xy 124.620333 177.913933) (xy 124.746955 177.947861) (xy 124.8125 177.95)
-					(xy 125.7125 177.95) (xy 125.778045 177.947861) (xy 125.904667 177.913933) (xy 126.018194 177.848388)
-					(xy 126.110888 177.755694) (xy 126.176433 177.642167) (xy 126.210361 177.515545) (xy 126.2125 177.45)
-					(xy 126.2125 177)
+					(xy 189.0625 86) (xy 189.0625 86.45) (xy 189.064639 86.515545) (xy 189.098567 86.642167) (xy 189.164112 86.755694)
+					(xy 189.256806 86.848388) (xy 189.370333 86.913933) (xy 189.496955 86.947861) (xy 189.5625 86.95)
+					(xy 190.4625 86.95) (xy 190.528045 86.947861) (xy 190.654667 86.913933) (xy 190.768194 86.848388)
+					(xy 190.860888 86.755694) (xy 190.926433 86.642167) (xy 190.960361 86.515545) (xy 190.9625 86.45)
+					(xy 190.9625 86)
 				)
 			)
 		)
@@ -18896,11 +18619,11 @@
 			)
 			(polygon
 				(pts
-					(xy 125.763045 178.052139) (xy 125.889667 178.086068) (xy 126.003194 178.151612) (xy 126.095888 178.244306)
-					(xy 126.161432 178.357833) (xy 126.195361 178.484455) (xy 126.1975 178.55) (xy 126.1975 179) (xy 124.2975 179)
-					(xy 124.2975 178.55) (xy 124.299639 178.484455) (xy 124.333568 178.357833) (xy 124.399112 178.244306)
-					(xy 124.491806 178.151612) (xy 124.605333 178.086068) (xy 124.731955 178.052139) (xy 124.7975 178.05)
-					(xy 125.6975 178.05)
+					(xy 190.513045 87.052139) (xy 190.639667 87.086068) (xy 190.753194 87.151612) (xy 190.845888 87.244306)
+					(xy 190.911432 87.357833) (xy 190.945361 87.484455) (xy 190.9475 87.55) (xy 190.9475 88) (xy 189.0475 88)
+					(xy 189.0475 87.55) (xy 189.049639 87.484455) (xy 189.083568 87.357833) (xy 189.149112 87.244306)
+					(xy 189.241806 87.151612) (xy 189.355333 87.086068) (xy 189.481955 87.052139) (xy 189.5475 87.05)
+					(xy 190.4475 87.05)
 				)
 			)
 		)
@@ -18931,11 +18654,11 @@
 			)
 			(polygon
 				(pts
-					(xy 125.778045 176.052139) (xy 125.904667 176.086068) (xy 126.018194 176.151612) (xy 126.110888 176.244306)
-					(xy 126.176432 176.357833) (xy 126.210361 176.484455) (xy 126.2125 176.55) (xy 126.2125 177) (xy 124.3125 177)
-					(xy 124.3125 176.55) (xy 124.314639 176.484455) (xy 124.348568 176.357833) (xy 124.414112 176.244306)
-					(xy 124.506806 176.151612) (xy 124.620333 176.086068) (xy 124.746955 176.052139) (xy 124.8125 176.05)
-					(xy 125.7125 176.05)
+					(xy 190.528045 85.052139) (xy 190.654667 85.086068) (xy 190.768194 85.151612) (xy 190.860888 85.244306)
+					(xy 190.926432 85.357833) (xy 190.960361 85.484455) (xy 190.9625 85.55) (xy 190.9625 86) (xy 189.0625 86)
+					(xy 189.0625 85.55) (xy 189.064639 85.484455) (xy 189.098568 85.357833) (xy 189.164112 85.244306)
+					(xy 189.256806 85.151612) (xy 189.370333 85.086068) (xy 189.496955 85.052139) (xy 189.5625 85.05)
+					(xy 190.4625 85.05)
 				)
 			)
 		)
@@ -18966,14 +18689,14 @@
 			)
 			(polygon
 				(pts
-					(xy 78.0625 177.4) (xy 78.0625 178)
+					(xy 142.8125 86.4) (xy 142.8125 87)
 					(arc
-						(start 74.4625 178)
-						(mid 74.755393 177.292893)
-						(end 75.4625 177)
+						(start 139.2125 87)
+						(mid 139.505393 86.292893)
+						(end 140.2125 86)
 					)
-					(xy 77.6625 177) (xy 77.725506 177.002193) (xy 77.845352 177.041133) (xy 77.947299 177.115201)
-					(xy 78.021367 177.217148) (xy 78.060307 177.336994)
+					(xy 142.4125 86) (xy 142.475506 86.002193) (xy 142.595352 86.041133) (xy 142.697299 86.115201)
+					(xy 142.771367 86.217148) (xy 142.810307 86.336994)
 				)
 			)
 		)
@@ -19004,14 +18727,14 @@
 			)
 			(polygon
 				(pts
-					(xy 78.0625 178.6) (xy 78.060038 178.662964) (xy 78.021124 178.782728) (xy 77.947106 178.884606)
-					(xy 77.845228 178.958624) (xy 77.725464 178.997538) (xy 77.6625 179)
+					(xy 142.8125 87.6) (xy 142.810038 87.662964) (xy 142.771124 87.782728) (xy 142.697106 87.884606)
+					(xy 142.595228 87.958624) (xy 142.475464 87.997538) (xy 142.4125 88)
 					(arc
-						(start 75.4625 179)
-						(mid 74.755393 178.707107)
-						(end 74.4625 178)
+						(start 140.2125 88)
+						(mid 139.505393 87.707107)
+						(end 139.2125 87)
 					)
-					(xy 78.0625 178)
+					(xy 142.8125 87)
 				)
 			)
 		)
@@ -19042,15 +18765,15 @@
 			)
 			(polygon
 				(pts
-					(xy 95.2625 182.116278) (xy 95.455215 182.097382) (xy 95.64059 182.041414) (xy 95.811563 181.950506)
-					(xy 95.961623 181.82812) (xy 96.085053 181.678919) (xy 96.177152 181.508584) (xy 96.234413 181.323605)
-					(xy 96.254654 181.131027) (xy 96.237104 180.938184) (xy 96.182431 180.752424) (xy 96.092719 180.58082)
-					(xy 95.971384 180.429909) (xy 95.823048 180.305441) (xy 95.65336 180.212154) (xy 95.468785 180.153603)
-					(xy 95.276353 180.132019) (xy 95.083393 180.148222) (xy 94.897255 180.201596) (xy 94.725029 180.290108)
-					(xy 94.573275 180.410387) (xy 94.447774 180.557851) (xy 94.353305 180.726882) (xy 94.293467 180.911044)
-					(xy 94.27054 181.103321) (xy 94.285395 181.29639) (xy 94.337469 181.482896) (xy 94.424776 181.655736)
-					(xy 94.543993 181.808325) (xy 94.690577 181.934853) (xy 94.858945 182.0305) (xy 95.042684 182.091622)
-					(xy 95.234797 182.115891)
+					(xy 160.0125 91.116278) (xy 160.205215 91.097382) (xy 160.39059 91.041414) (xy 160.561563 90.950506)
+					(xy 160.711623 90.82812) (xy 160.835053 90.678919) (xy 160.927152 90.508584) (xy 160.984413 90.323605)
+					(xy 161.004654 90.131027) (xy 160.987104 89.938184) (xy 160.932431 89.752424) (xy 160.842719 89.58082)
+					(xy 160.721384 89.429909) (xy 160.573048 89.305441) (xy 160.40336 89.212154) (xy 160.218785 89.153603)
+					(xy 160.026353 89.132019) (xy 159.833393 89.148222) (xy 159.647255 89.201596) (xy 159.475029 89.290108)
+					(xy 159.323275 89.410387) (xy 159.197774 89.557851) (xy 159.103305 89.726882) (xy 159.043467 89.911044)
+					(xy 159.02054 90.103321) (xy 159.035395 90.29639) (xy 159.087469 90.482896) (xy 159.174776 90.655736)
+					(xy 159.293993 90.808325) (xy 159.440577 90.934853) (xy 159.608945 91.0305) (xy 159.792684 91.091622)
+					(xy 159.984797 91.115891)
 				)
 			)
 		)
@@ -19081,15 +18804,15 @@
 			)
 			(polygon
 				(pts
-					(xy 95.2625 184.656278) (xy 95.455215 184.637382) (xy 95.64059 184.581414) (xy 95.811563 184.490506)
-					(xy 95.961623 184.36812) (xy 96.085053 184.218919) (xy 96.177152 184.048584) (xy 96.234413 183.863605)
-					(xy 96.254654 183.671027) (xy 96.237104 183.478184) (xy 96.182431 183.292424) (xy 96.092719 183.12082)
-					(xy 95.971384 182.969909) (xy 95.823048 182.845441) (xy 95.65336 182.752154) (xy 95.468785 182.693603)
-					(xy 95.276353 182.672019) (xy 95.083393 182.688222) (xy 94.897255 182.741596) (xy 94.725029 182.830108)
-					(xy 94.573275 182.950387) (xy 94.447774 183.097851) (xy 94.353305 183.266882) (xy 94.293467 183.451044)
-					(xy 94.27054 183.643321) (xy 94.285395 183.83639) (xy 94.337469 184.022896) (xy 94.424776 184.195736)
-					(xy 94.543993 184.348325) (xy 94.690577 184.474853) (xy 94.858945 184.5705) (xy 95.042684 184.631622)
-					(xy 95.234797 184.655891)
+					(xy 160.0125 93.656278) (xy 160.205215 93.637382) (xy 160.39059 93.581414) (xy 160.561563 93.490506)
+					(xy 160.711623 93.36812) (xy 160.835053 93.218919) (xy 160.927152 93.048584) (xy 160.984413 92.863605)
+					(xy 161.004654 92.671027) (xy 160.987104 92.478184) (xy 160.932431 92.292424) (xy 160.842719 92.12082)
+					(xy 160.721384 91.969909) (xy 160.573048 91.845441) (xy 160.40336 91.752154) (xy 160.218785 91.693603)
+					(xy 160.026353 91.672019) (xy 159.833393 91.688222) (xy 159.647255 91.741596) (xy 159.475029 91.830108)
+					(xy 159.323275 91.950387) (xy 159.197774 92.097851) (xy 159.103305 92.266882) (xy 159.043467 92.451044)
+					(xy 159.02054 92.643321) (xy 159.035395 92.83639) (xy 159.087469 93.022896) (xy 159.174776 93.195736)
+					(xy 159.293993 93.348325) (xy 159.440577 93.474853) (xy 159.608945 93.5705) (xy 159.792684 93.631622)
+					(xy 159.984797 93.655891)
 				)
 			)
 		)
@@ -19121,14 +18844,14 @@
 			(polygon
 				(pts
 					(arc
-						(start 74.4625 175.46)
-						(mid 74.755393 176.167107)
-						(end 75.4625 176.46)
+						(start 139.2125 84.46)
+						(mid 139.505393 85.167107)
+						(end 140.2125 85.46)
 					)
 					(arc
-						(start 77.0625 176.46)
-						(mid 77.769607 176.167107)
-						(end 78.0625 175.46)
+						(start 141.8125 85.46)
+						(mid 142.519607 85.167107)
+						(end 142.8125 84.46)
 					)
 				)
 			)
@@ -19161,14 +18884,14 @@
 			(polygon
 				(pts
 					(arc
-						(start 74.462575 180.540141)
-						(mid 74.755468 181.247248)
-						(end 75.462575 181.540141)
+						(start 139.212575 89.540141)
+						(mid 139.505468 90.247248)
+						(end 140.212575 90.540141)
 					)
 					(arc
-						(start 77.062575 181.540141)
-						(mid 77.769682 181.247248)
-						(end 78.062575 180.540141)
+						(start 141.812575 90.540141)
+						(mid 142.519682 90.247248)
+						(end 142.812575 89.540141)
 					)
 				)
 			)
@@ -19201,14 +18924,14 @@
 			(polygon
 				(pts
 					(arc
-						(start 75.4625 174.46)
-						(mid 74.755393 174.752893)
-						(end 74.4625 175.46)
+						(start 140.2125 83.46)
+						(mid 139.505393 83.752893)
+						(end 139.2125 84.46)
 					)
 					(arc
-						(start 78.0625 175.46)
-						(mid 77.769607 174.752893)
-						(end 77.0625 174.46)
+						(start 142.8125 84.46)
+						(mid 142.519607 83.752893)
+						(end 141.8125 83.46)
 					)
 				)
 			)
@@ -19241,14 +18964,14 @@
 			(polygon
 				(pts
 					(arc
-						(start 75.462575 179.540141)
-						(mid 74.755468 179.833034)
-						(end 74.462575 180.540141)
+						(start 140.212575 88.540141)
+						(mid 139.505468 88.833034)
+						(end 139.212575 89.540141)
 					)
 					(arc
-						(start 78.062575 180.540141)
-						(mid 77.769682 179.833034)
-						(end 77.062575 179.540141)
+						(start 142.812575 89.540141)
+						(mid 142.519682 88.833034)
+						(end 141.812575 88.540141)
 					)
 				)
 			)
@@ -19280,7 +19003,7 @@
 			)
 			(polygon
 				(pts
-					(xy 148.6125 171.8) (xy 148.6125 184.2) (xy 128.2125 184.2) (xy 128.2125 171.8)
+					(xy 213.3625 80.8) (xy 213.3625 93.2) (xy 192.9625 93.2) (xy 192.9625 80.8)
 				)
 			)
 		)
@@ -19311,8 +19034,8 @@
 			)
 			(polygon
 				(pts
-					(xy 128.6625 172.25) (xy 128.6625 174.06) (xy 128.2625 174.06) (xy 128.2625 181.94) (xy 128.6625 181.94)
-					(xy 128.6625 183.75) (xy 148.1625 183.75) (xy 148.1625 172.25)
+					(xy 193.4125 81.25) (xy 193.4125 83.06) (xy 193.0125 83.06) (xy 193.0125 90.94) (xy 193.4125 90.94)
+					(xy 193.4125 92.75) (xy 212.9125 92.75) (xy 212.9125 81.25)
 				)
 			)
 		)
@@ -19363,7 +19086,7 @@
 			)
 		)
 		(group ""
-			(uuid "1d306aa6-1608-423d-a8bd-027f311005f3")
+			(uuid "af9813e7-1710-4a1a-b7f2-41dc183bb3b6")
 			(members "094de121-9ea2-4da2-8846-7631e2451a08" "09a25939-5d05-4058-9d61-346eb372269d"
 				"0ec20a10-6e9f-4627-9507-e511e6d6f975" "138ac83c-8a33-43e4-8c3a-ce890ad58432"
 				"138b9b24-c09f-420c-8525-78b8a6e74390" "1665da75-f10d-42f5-8e2a-657bfe86b85f"
@@ -19422,7 +19145,7 @@
 			)
 		)
 		(group ""
-			(uuid "af9813e7-1710-4a1a-b7f2-41dc183bb3b6")
+			(uuid "1d306aa6-1608-423d-a8bd-027f311005f3")
 			(members "35ba19c7-f6f8-42a8-adda-1cc7e4e379c3" "fec45362-cabd-4577-93c4-672238222964")
 		)
 		(group ""
@@ -19626,12 +19349,6 @@
 		(path "/35dc637f-d161-4725-887c-2e1e2d92db44")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19784,12 +19501,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/1d15612a-5d12-44b4-9821-ca24298928dc")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19942,12 +19653,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/4e30c198-91ef-4acc-a9bf-f63ba32df1d7")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20100,12 +19805,6 @@
 		(path "/d3368668-541b-4de3-8088-04d6c358ad82")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20243,12 +19942,6 @@
 		(path "/769bc2a2-babd-4939-a5d1-b97984d2036d")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20434,15 +20127,26 @@
 			(uuid "620626ab-3c18-426b-9043-a48e1b5a8aa5")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/TL3305BF260QG/TL3305BF260QG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c54bfedc-4c42-4ecd-a075-23bf2c64b33a")
-		(at 91 -1)
+		(at 85 54.5 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "415465de-73fe-4adc-aa65-db2055517fd3")
 			(effects
@@ -20453,7 +20157,7 @@
 			)
 		)
 		(property "Value" "100 Ohm"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4d5bc80a-1092-431a-8ee3-380d050262d2")
 			(effects
@@ -20464,7 +20168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28a238a3-e873-4461-9d05-66f567341636")
@@ -20475,7 +20179,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e36af0b-5800-4e34-9d0f-f42ee60807ac")
@@ -20486,7 +20190,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7d0fc5ee-27dd-4ef2-9799-4132ca7ba625")
@@ -20501,24 +20205,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/e7f8880d-405b-4f68-a1b3-17b042ff433f")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "65005ccf-affb-47a4-9007-bbd2b8a3ddf0")
-		)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -20528,6 +20216,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "978b1822-e700-41ab-984c-89d114133282")
+		)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "65005ccf-affb-47a4-9007-bbd2b8a3ddf0")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -20552,7 +20250,7 @@
 			(uuid "314fef75-5a3d-4cc7-9570-c93af92bc2d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "3ad6d255-af2c-47b5-ae2e-583b4044b34a")
 			(effects
@@ -20563,7 +20261,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20572,7 +20270,7 @@
 			(uuid "0b1496ec-250e-46f9-b9d1-0e7e916a1ed0")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20659,15 +20357,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/91d4aaaf-3bf9-4e36-b886-1f1db3355705")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "3" "1" "29" "27" "4" "2" "30" "28" "9" "10" "15" "8" "13"
-					"7" "14" "12" "11" "6" "17" "16" "18" "26" "25" "24" "23" "22" "21"
-					"20" "19"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21201,7 +20890,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "c76175eb-b817-4b38-b4be-cce4a10938a0")
-		(at 154 50)
+		(at 156 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP8"
@@ -21256,12 +20945,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/591b40b4-000d-4c81-aae4-f05108c5843a")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -21375,11 +21058,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c7c14297-0dff-4d95-9da8-400c31838fe1")
-		(at 209 75.5)
+		(at 183.75 68.25)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C50"
-			(at 0 -1.68 0)
+			(at -4 0 0)
 			(layer "F.SilkS")
 			(uuid "f41e3b8b-8e5b-48b2-b56c-4bc7dcbb572a")
 			(effects
@@ -21438,12 +21121,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/c3c3156b-c48c-41d8-b178-36acbc93ef86")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21533,11 +21210,11 @@
 	(footprint "RCJ_2223:SAMESKY_RCJ-2223"
 		(layer "F.Cu")
 		(uuid "c8d0c40f-a118-48f1-98c9-873596e80b21")
-		(at 112.90575 35.7)
+		(at 113 35.7)
 		(property "Reference" "J3"
 			(at -8.825 6.365 0)
 			(layer "F.SilkS")
-			(uuid "e6aa5678-1822-408f-80bb-9e5ad84893d1")
+			(uuid "fa9b1384-83c3-40b6-8048-4aadb1a3b5d4")
 			(effects
 				(font
 					(size 1 1)
@@ -21548,7 +21225,7 @@
 		(property "Value" "Conn_Coaxial_x2"
 			(at -1.84 7.865 0)
 			(layer "F.Fab")
-			(uuid "c9008550-a596-4cd6-ba9b-b002bed55a5f")
+			(uuid "ba4c2517-f9cc-4cc8-9605-d969788ba423")
 			(effects
 				(font
 					(size 1 1)
@@ -21560,7 +21237,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "138f8775-adfb-47c5-b02d-f1ea20807692")
+			(uuid "d244cc44-29c8-4cdd-a521-d02e603efbd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21571,7 +21248,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20b02231-9166-4b9c-8b94-56d240031aef")
+			(uuid "3d751b77-50b0-40a9-bfcf-10972bb816bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21582,12 +21259,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/45780797-8b8c-4ad5-9c18-0382814a54a0")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21950,6 +21621,17 @@
 			(uuid "5dc3e53c-dc88-47dc-ae71-da7d8d6c94d9")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/RCJ_2223/RCJ-2223.step"
+			(offset
+				(xyz 0 5.5 14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "TL3305BF260QG:SW_TL3305BF260QG"
 		(layer "F.Cu")
@@ -22002,12 +21684,6 @@
 		(path "/4dfef365-fa2c-4d59-a833-cfc746fc133c")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22193,6 +21869,17 @@
 			(uuid "183c5f00-25f0-4ffa-8736-b649291e5bb0")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/TL3305BF260QG/TL3305BF260QG.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -22260,12 +21947,6 @@
 		(path "/4f6ab78b-2da6-4637-9732-d5408ff2c9f6")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22355,13 +22036,13 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d00ef5ce-5f3d-4235-980f-949d50ac98eb")
-		(at 134 83 90)
+		(at 133.5 64.5875 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R22"
-			(at 0 -1.43 90)
+			(at -0.0875 1.5 90)
 			(layer "F.SilkS")
-			(uuid "9f7ebe78-6e2e-413b-a765-8887f0afe50c")
+			(uuid "5e2cb89e-d2a3-4168-b868-4c9dd383dbcf")
 			(effects
 				(font
 					(size 1 1)
@@ -22372,7 +22053,7 @@
 		(property "Value" "0R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "e398659d-405c-41ee-be5c-0bc41c71341c")
+			(uuid "e4e09846-5e8d-4af8-829f-cb002ad854f7")
 			(effects
 				(font
 					(size 1 1)
@@ -22384,7 +22065,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb403ff5-c4e0-43da-9f51-6ab9102e0d63")
+			(uuid "f16fe975-b161-4952-adc8-e43c05fa90ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22395,7 +22076,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2f6e491-b7c7-4b41-8605-d69ebec07026")
+			(uuid "742f71e2-37e2-4fad-abcd-11d6cb458eac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,24 +22099,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/8cd2d45f-2adf-439e-b9a8-b138e7946d64")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df5995b8-5a09-4738-9d79-4c4d9c2bf947")
-		)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -22445,6 +22110,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "014ad8f4-5b77-4cb0-8f3e-2866075a07a2")
+		)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df5995b8-5a09-4738-9d79-4c4d9c2bf947")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -22480,7 +22155,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0 90)
+			(at -0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22489,7 +22164,7 @@
 			(uuid "b147827d-6326-4088-9682-c42bc291884e")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0 90)
+			(at 0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22513,7 +22188,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "d014143e-7301-4132-9858-7519d7aca0e9")
-		(at 113 49.5)
+		(at 113 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP2"
@@ -22568,12 +22243,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/c82e0e28-66ff-43b3-af21-7df44ebf6170")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -22687,7 +22356,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d0eda082-ffbf-4e70-acf9-12bc7abb6fe0")
-		(at 83 72)
+		(at 76 79.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
@@ -22750,12 +22419,6 @@
 		(path "/153d3be0-3b42-4cea-b77a-d3ed3f7ef4ce")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22845,13 +22508,13 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d274adf3-13d9-4d0b-969a-18a03bfdfb16")
-		(at 116.1375 82.5)
+		(at 16.4125 103 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C38"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "900c1447-f4b1-4555-84e2-10fafc6c7506")
+			(uuid "1467ad76-9d46-4fb8-a050-aaba097fa2c9")
 			(effects
 				(font
 					(size 1 1)
@@ -22862,7 +22525,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "39dd61d9-e0a3-4612-b273-f2e9b6ae049a")
+			(uuid "16e59114-3f6e-4286-9226-23f01f189041")
 			(effects
 				(font
 					(size 1 1)
@@ -22874,7 +22537,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "662b702a-1349-42ed-ac9d-38b653455f59")
+			(uuid "3df5ef93-53be-4054-9275-120b2796039f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22885,7 +22548,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e5aadf9-6f0a-42d0-ba4a-5bb787e015a4")
+			(uuid "8eabc2c0-ee94-4a79-af43-42fdcc69d131")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22908,24 +22571,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/13c8e2a2-f532-4e21-b3fb-56a6033fcbef")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.146267 -0.51)
-			(end 0.146267 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f23de02b-fdd4-409c-b83a-21016d90c167")
-		)
 		(fp_line
 			(start -0.146267 0.51)
 			(end 0.146267 0.51)
@@ -22935,6 +22582,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b3d35960-d331-44be-8bca-77f5048cf364")
+		)
+		(fp_line
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f23de02b-fdd4-409c-b83a-21016d90c167")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -22970,7 +22627,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0)
+			(at -0.8625 0 180)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22979,7 +22636,7 @@
 			(uuid "2a201b1b-6d99-4267-8553-b8ab26805d75")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0)
+			(at 0.8625 0 180)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23003,7 +22660,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d5f47386-1ea7-4bac-bf84-01f70f022b3a")
-		(at 83.6375 65)
+		(at 76.6375 72.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C13"
@@ -23066,12 +22723,6 @@
 		(path "/1b069bb9-1e09-46d2-9924-2fc7c494c6c6")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23161,7 +22812,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d6fa97ef-e569-439a-b888-b28f66ffc863")
-		(at 116.4625 -6.5)
+		(at 113.5375 -8.0375)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C26"
@@ -23224,12 +22875,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/b1a159fa-d2c2-4c5f-b10f-e804203bf868")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23323,7 +22968,7 @@
 		(property "Reference" "J6"
 			(at 10.5 4.3 0)
 			(layer "F.SilkS")
-			(uuid "d6f842aa-2fd5-4546-a319-e8ec11feaf22")
+			(uuid "0c2734e8-6325-462e-9f3b-c3307a10f3d1")
 			(effects
 				(font
 					(size 1 1)
@@ -23334,7 +22979,7 @@
 		(property "Value" "Conn_Coaxial_x2"
 			(at -1.84 7.865 0)
 			(layer "F.Fab")
-			(uuid "26ebe6af-f0f0-43ad-b38c-5711fa216406")
+			(uuid "b00dc7d8-439c-4119-bce3-a8187cd852db")
 			(effects
 				(font
 					(size 1 1)
@@ -23346,7 +22991,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3f24a3b-0bb5-415e-9758-acbfe0d4fb9f")
+			(uuid "71bbc487-4b84-488a-ab90-6a48e679c9d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23357,7 +23002,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87779a82-f995-48e6-b5d1-25279eac5619")
+			(uuid "c6df5b04-c266-4cdb-9d92-46608e173760")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23368,12 +23013,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/ad040d96-33bd-4c98-ad3e-89fed2070b7e")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23736,15 +23375,26 @@
 			(uuid "96549964-7b5f-4ac9-ad44-e77283a8486f")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/RCJ_2223/RCJ-2223.step"
+			(offset
+				(xyz 0 5.5 14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d95de9c3-d774-4874-b7df-96e07fc8ff6d")
-		(at 155 13)
+		(at 156 55.25 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "c25945c3-1b9d-441c-be7a-2651433398a5")
 			(effects
@@ -23755,7 +23405,7 @@
 			)
 		)
 		(property "Value" "100 Ohm"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bf0173ce-2b72-46bd-b094-589e58f9a58d")
 			(effects
@@ -23766,7 +23416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9a1480fc-c764-458d-89f0-6e04767d6d3f")
@@ -23777,7 +23427,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1c668c4-d2f1-454b-a1e3-c88ba6ac8e58")
@@ -23788,7 +23438,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "29ef0386-9109-4583-b036-3ad663828bcb")
@@ -23803,24 +23453,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/1b26764e-9e33-4320-bfbf-02ccee513789")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cb60f9c6-267d-4798-a029-e7089a609c35")
-		)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -23830,6 +23464,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ce8db0ce-05f0-4865-bcb5-e7c45d7a0682")
+		)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb60f9c6-267d-4798-a029-e7089a609c35")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -23854,7 +23498,7 @@
 			(uuid "c5c80a4a-31da-43b1-a55c-09bb42b346ca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "3c566c67-e64c-4db0-86ce-fbfb27901aa5")
 			(effects
@@ -23865,7 +23509,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0)
+			(at -0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23874,7 +23518,7 @@
 			(uuid "4dc81e65-14e2-4d33-beeb-c2548f1fbb71")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0)
+			(at 0.9125 0 270)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23961,12 +23605,6 @@
 		(path "/a9269900-03cd-4bb8-bcd8-cc1e3d821144")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24056,11 +23694,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dc57de09-46dd-4dfc-87bb-bb133458a521")
-		(at 155.0375 0)
+		(at 156 49.75 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C34"
-			(at 0 -1.68 0)
+			(at 0 -1.68 90)
 			(layer "F.SilkS")
 			(uuid "43c5bf31-9301-40ee-a937-86b12a421ce0")
 			(effects
@@ -24071,7 +23709,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "cd583575-c6fa-4d2e-8266-5d320918a79c")
 			(effects
@@ -24082,7 +23720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7eb1e62-97f2-45c9-9761-617e699772cb")
@@ -24093,7 +23731,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f756e5eb-3a6f-4a39-acec-cb3e834f8e8e")
@@ -24104,7 +23742,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b7e91d51-f792-410b-ade7-afaaefbe4b69")
@@ -24119,24 +23757,8 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/5de0819a-019f-406b-b96e-4761f30b085d")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "50f9a021-841c-47dd-8313-7637f453a11f")
-		)
 		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
@@ -24146,6 +23768,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "9cc37fb4-e9e3-4b81-aae6-8159416cf5af")
+		)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50f9a021-841c-47dd-8313-7637f453a11f")
 		)
 		(fp_rect
 			(start -1.88 -0.98)
@@ -24170,7 +23802,7 @@
 			(uuid "129c1d94-e6c4-47bc-b692-4fcb405c77a1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "5b818ea1-b8dc-4309-b188-f17cb2aaa4e0")
 			(effects
@@ -24181,7 +23813,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.0375 0)
+			(at -1.0375 0 270)
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
@@ -24190,7 +23822,7 @@
 			(uuid "878ce08b-c047-437a-a029-856cf2cf9629")
 		)
 		(pad "2" smd roundrect
-			(at 1.0375 0)
+			(at 1.0375 0 270)
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
@@ -24262,12 +23894,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/fd1cc055-17fb-4e96-aa86-87114c2f3026")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24510,6 +24136,17 @@
 			(uuid "04637486-1801-4a99-bd7f-10ecf8a1f710")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/JS102011SAQN/JS102011SAQN.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -24577,12 +24214,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/01bb29ed-45dc-42bc-ab6d-3911a01c9b6b")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24672,7 +24303,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dfda12c4-0e60-4eb3-961f-6d829f5e94bb")
-		(at 106.3625 58)
+		(at 155.1375 59.75)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C36"
@@ -24735,12 +24366,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/c79802df-3786-4893-a779-b9172255ce27")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24893,12 +24518,6 @@
 		(path "/cbc39569-8ad0-4c4e-a363-961868cddc2f")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24988,7 +24607,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e16e2d51-4131-436a-89f8-124bc32a42e2")
-		(at 183.5 98.5)
+		(at 168.5 106)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -25051,12 +24670,6 @@
 		(path "/1b5a0e9d-6cd7-47f6-859f-3eb50d598660")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25209,12 +24822,6 @@
 		(path "/513e140f-0903-40be-a998-b75f3b112b14")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25304,7 +24911,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e5d28cf4-7035-4317-9a99-df3c8727aef1")
-		(at 110.425 -6.4625 180)
+		(at 107.5 -8 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
@@ -25367,12 +24974,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/5e04d4e5-4887-4426-8e3f-ee8156b66640")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25462,7 +25063,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "e821fc6d-4df9-4244-9d90-9242ebeebfa6")
-		(at 85 46.5)
+		(at 85 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP3"
@@ -25517,12 +25118,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/f154fb70-432a-4fdd-a42c-d22ece08fc12")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -25636,11 +25231,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e8fa9088-cf65-472e-b1c5-41758b5161d3")
-		(at 183 70)
+		(at 183.75 66.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C49"
-			(at 0 1.5 0)
+			(at -3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "465daa28-7508-487f-b155-838a41a51e55")
 			(effects
@@ -25699,12 +25294,6 @@
 		(path "/00392a00-2413-4998-abe8-751dd2c3241f/79071786-94a2-46de-9ce5-6a9dee9782d0")
 		(sheetname "/DAC/")
 		(sheetfile "DAC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25857,12 +25446,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/13985366-be79-4a24-b226-55378e4d7bb5")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26040,12 +25623,6 @@
 		(path "/de7c8b6d-85bf-4505-ba45-0ce0f8ac4697")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26300,6 +25877,24 @@
 			(layer "F.Fab")
 			(uuid "af6e73a4-cf58-4492-9041-5c9cbab85c61")
 		)
+		(pad "" thru_hole oval
+			(at -4.4 0 90)
+			(size 2.3 4.6)
+			(drill oval 1.8 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "8cb50d21-1b2c-4982-b1cf-d3c2fb2ecb35")
+		)
+		(pad "" thru_hole oval
+			(at 4.4 0 90)
+			(size 2.3 4.6)
+			(drill oval 1.8 2.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(solder_mask_margin 0.102)
+			(uuid "59f506f0-9e8e-40d9-90dd-ebea18f398ea")
+		)
 		(pad "1" thru_hole rect
 			(at -2.5 7 90)
 			(size 1.508 1.508)
@@ -26336,25 +25931,18 @@
 			(solder_mask_margin 0.102)
 			(uuid "efe9d0d9-c559-4b82-9434-64b5405d92cd")
 		)
-		(pad "S1" thru_hole oval
-			(at -4.4 0 90)
-			(size 2.3 4.6)
-			(drill oval 1.8 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "8cb50d21-1b2c-4982-b1cf-d3c2fb2ecb35")
-		)
-		(pad "S2" thru_hole oval
-			(at 4.4 0 90)
-			(size 2.3 4.6)
-			(drill oval 1.8 2.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(solder_mask_margin 0.102)
-			(uuid "59f506f0-9e8e-40d9-90dd-ebea18f398ea")
-		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/PT01_D115D_B503/PT01-D115D-B503.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -26422,12 +26010,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/fd942072-7877-4664-9bab-3138239f8022")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26569,12 +26151,6 @@
 		(path "/ae8a3531-ba07-4ce4-bf23-f81d48e2e99c")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26838,17 +26414,28 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f5fcaf39-dfa8-47c7-ab6c-75dce70cf7c9")
-		(at 88.5 82)
+		(at 16.4125 99.75)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "d70f4676-941e-4d21-bbae-627584b1f8d4")
+			(uuid "36c06cf1-2bfa-421c-9278-b1f367721601")
 			(effects
 				(font
 					(size 1 1)
@@ -26859,7 +26446,7 @@
 		(property "Value" "R_Small"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "38903130-46c1-458f-80e6-34254006b2b4")
+			(uuid "6940d065-7345-4fb7-a316-e11b43881ecd")
 			(effects
 				(font
 					(size 1 1)
@@ -26871,7 +26458,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff43a148-be7c-4d77-930a-d9b89cde78bd")
+			(uuid "aae4bcb3-d0ba-4fa6-9006-d0ed94ba6503")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26882,7 +26469,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c5ca2e9-fe4f-42ac-b41b-d73e143d829d")
+			(uuid "799d9eab-e5d5-474f-a618-688814189d1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26905,12 +26492,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/6db5e3d4-f574-4511-86af-9bdebca817b4")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27063,12 +26644,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/cceceec0-b063-4079-9486-dab38d059b1b")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27158,11 +26733,11 @@
 	(footprint "RCJ_2223:SAMESKY_RCJ-2223"
 		(layer "F.Cu")
 		(uuid "fb3d307b-8277-4f4a-8d53-e752606a4ce6")
-		(at 159.90575 35.7)
+		(at 160 35.7)
 		(property "Reference" "J5"
 			(at -8.825 6.365 0)
 			(layer "F.SilkS")
-			(uuid "9ca40624-1625-48c7-ab33-f9d674aa901b")
+			(uuid "90ca6f95-cda9-4eac-ae60-efc5c17f46e2")
 			(effects
 				(font
 					(size 1 1)
@@ -27173,7 +26748,7 @@
 		(property "Value" "Conn_Coaxial_x2"
 			(at -1.84 7.865 0)
 			(layer "F.Fab")
-			(uuid "e5a51d97-dcb4-49fe-aba2-e2db776fc30f")
+			(uuid "5d91a0d1-7869-4787-9ea4-6dd40b1ba62a")
 			(effects
 				(font
 					(size 1 1)
@@ -27185,7 +26760,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b33affe-3d47-47fb-b763-f5c63851e0e6")
+			(uuid "1f2a7b7c-12ce-4720-92f4-95c451765a74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27196,7 +26771,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db783a38-c45c-4f1f-8f5d-e63e0696cabc")
+			(uuid "f3829726-e64b-48be-a19c-0611dbc39f4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27207,12 +26782,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/27c67a75-fb23-44e0-91bc-d165a0467826")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27575,15 +27144,26 @@
 			(uuid "05e57ace-71af-4b0b-b7c4-e690dcd622b3")
 		)
 		(embedded_fonts no)
+		(model "/home/biarki/Documents/git-repos/ECE484-Project/KiCAD_Lib/RCJ_2223/RCJ-2223.step"
+			(offset
+				(xyz 0 5.5 14.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fce55891-15af-4a94-b963-63d1de4d270c")
-		(at 55 85.5 180)
+		(at 51 85.5 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "3286d287-8857-44ba-a323-e520d54fbc06")
 			(effects
@@ -27594,7 +27174,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bf809888-8451-4509-a9e9-1ad9d5b10a64")
 			(effects
@@ -27605,7 +27185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "358c0f9e-6b45-43f9-9272-4fe23278e422")
@@ -27616,7 +27196,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34e5aa78-47d4-41f1-9175-c12e471c3ade")
@@ -27627,7 +27207,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bd9d313a-8a5b-4575-bd2d-d25cc5a04724")
@@ -27642,24 +27222,8 @@
 		(path "/c8d6f0ee-0de3-4895-84f3-6758931e159f")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.146267 0.51)
-			(end 0.146267 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c9124d7f-6e87-4ce4-906a-cf79f4349aea")
-		)
 		(fp_line
 			(start -0.146267 -0.51)
 			(end 0.146267 -0.51)
@@ -27669,6 +27233,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "6d0f821b-3adc-4a92-8e1f-6121754f3701")
+		)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c9124d7f-6e87-4ce4-906a-cf79f4349aea")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -27693,7 +27267,7 @@
 			(uuid "32e25a3f-f3c3-454d-b261-18484e12b333")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "a85ae5aa-8007-46a5-ad43-d7a2248b9e19")
 			(effects
@@ -27704,7 +27278,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.8625 0 180)
+			(at -0.8625 0 90)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -27713,7 +27287,7 @@
 			(uuid "05ca5f7c-77d4-41eb-812d-ad886fa1a5e4")
 		)
 		(pad "2" smd roundrect
-			(at 0.8625 0 180)
+			(at 0.8625 0 90)
 			(size 1.075 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -27737,7 +27311,7 @@
 	(footprint "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 		(layer "F.Cu")
 		(uuid "fe6e0698-f773-4bbc-9ca7-b721c3ebe364")
-		(at 109 43.5)
+		(at 109 43.75)
 		(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP4"
@@ -27792,12 +27366,6 @@
 		(path "/0349d98b-e009-46d4-b6e1-916773e0607c/117ed80c-2f75-4560-8e5f-f00ae4603f87")
 		(sheetname "/ADC/")
 		(sheetfile "ADC.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -27974,12 +27542,6 @@
 		(path "/0a6bb2ba-96d6-453d-8e1c-a9212b4a28dc")
 		(sheetname "/")
 		(sheetfile "PiPICO_AudioHat.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28065,6 +27627,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 27 17.5)
+		(end 225.5 146)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ac86d551-3803-4d4c-9e4e-bb7fa91c6094")
 	)
 	(embedded_fonts no)
 )
