@@ -5,6 +5,129 @@
 	(uuid "bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -4174,6 +4297,12 @@
 		(uuid "6eaae597-c34d-42fb-a6fe-6c44cf69d6df")
 	)
 	(junction
+		(at 82.55 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717ff15c-7df9-4b19-b54c-a4c1afdb9627")
+	)
+	(junction
 		(at 83.82 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4190,6 +4319,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "857cd6d0-c280-4bc0-b9de-637f628bf723")
+	)
+	(junction
+		(at 127 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ded3d8-2233-4eb3-823a-44651eb9bd60")
 	)
 	(junction
 		(at 38.1 62.23)
@@ -4226,6 +4361,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "993e1155-2916-437a-a7a1-5deb8e9199c0")
+	)
+	(junction
+		(at 127 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a017a085-ba33-406f-ac01-5aa3d8d64f0d")
 	)
 	(junction
 		(at 76.2 30.48)
@@ -4270,10 +4411,22 @@
 		(uuid "c242de05-041e-419c-aea4-6f691ab54477")
 	)
 	(junction
+		(at 114.3 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d67fd1-97f7-4977-ac78-1fe85954600d")
+	)
+	(junction
 		(at 101.6 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da5af135-d727-48f9-b300-6939f3150bee")
+	)
+	(junction
+		(at 88.9 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db855275-9819-4ca5-83db-ad4150aaf4cb")
 	)
 	(junction
 		(at 266.7 101.6)
@@ -4407,7 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 158.75) (xy 114.3 165.1)
+			(xy 114.3 158.75) (xy 114.3 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4467,6 +4620,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a2704d-b041-4712-a80a-c507b62fb43c")
+	)
+	(wire
+		(pts
 			(xy 38.1 62.23) (xy 38.1 63.5)
 		)
 		(stroke
@@ -4484,16 +4647,6 @@
 			(type default)
 		)
 		(uuid "1aa3313b-556f-4467-bab0-bb988837d42d")
-	)
-	(wire
-		(pts
-			(xy 173.99 123.19) (xy 161.29 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0e876a-1250-4fe8-bcec-769e3ea33c97")
 	)
 	(wire
 		(pts
@@ -4544,16 +4697,6 @@
 			(type default)
 		)
 		(uuid "226bea3e-1ede-4a11-8c9a-019dbd9a92fb")
-	)
-	(wire
-		(pts
-			(xy 152.4 123.19) (xy 158.75 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22c4bb1a-1bd2-4e67-804d-b5be50489d57")
 	)
 	(wire
 		(pts
@@ -4617,6 +4760,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 125.73) (xy 173.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29aec0e9-2d36-4cf5-9b30-3d288f1b54e9")
+	)
+	(wire
+		(pts
 			(xy 38.1 55.88) (xy 38.1 62.23)
 		)
 		(stroke
@@ -4627,7 +4780,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 184.15) (xy 82.55 190.5)
+			(xy 82.55 184.15) (xy 82.55 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +4840,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 30.48) (xy 127 25.4)
+			(xy 127 30.48) (xy 127 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4747,7 +4900,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 127) (xy 152.4 127)
+			(xy 158.75 123.19) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4774,6 +4927,16 @@
 			(type default)
 		)
 		(uuid "3954b418-ef7f-4899-85ae-061ea693ffff")
+	)
+	(wire
+		(pts
+			(xy 82.55 187.96) (xy 82.55 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398ebec6-dcab-44b0-ae85-b187ff367858")
 	)
 	(wire
 		(pts
@@ -4817,6 +4980,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 120.65) (xy 173.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1fce20-4a6c-4388-9f5f-ca79ea2b0a0a")
+	)
+	(wire
+		(pts
 			(xy 116.84 30.48) (xy 127 30.48)
 		)
 		(stroke
@@ -4827,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 129.54) (xy 163.83 129.54)
+			(xy 152.4 125.73) (xy 161.29 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4907,7 +5080,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 25.4) (xy 88.9 30.48)
+			(xy 88.9 25.4) (xy 88.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4977,6 +5150,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 128.27) (xy 166.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510c1958-6b4f-4c33-b899-e9614853d201")
+	)
+	(wire
+		(pts
 			(xy 129.54 64.77) (xy 129.54 67.31)
 		)
 		(stroke
@@ -5034,6 +5217,16 @@
 			(type default)
 		)
 		(uuid "57269fd3-a787-4f09-9eb8-1eb04adad9df")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 161.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e59de8-092c-4bb6-bef9-9f9062c95a3d")
 	)
 	(wire
 		(pts
@@ -5327,6 +5520,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 128.27) (xy 163.83 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758be222-eb66-4fe5-af9e-712f675c0965")
+	)
+	(wire
+		(pts
+			(xy 166.37 128.27) (xy 166.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768fce40-5eda-40d8-a8ba-e4579cdb7ed6")
+	)
+	(wire
+		(pts
 			(xy 50.8 176.53) (xy 50.8 184.15)
 		)
 		(stroke
@@ -5354,6 +5567,16 @@
 			(type default)
 		)
 		(uuid "7a402be6-cd65-43df-aa0f-fbac94acb648")
+	)
+	(wire
+		(pts
+			(xy 127 27.94) (xy 127 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac441df-e009-497d-aba1-3b8b6fde2644")
 	)
 	(wire
 		(pts
@@ -5417,6 +5640,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 123.19) (xy 158.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c5abfd-681e-47dc-8656-9860936fdd5d")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 163.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8303d8e3-d612-4f29-9182-da73a5e9946a")
+	)
+	(wire
+		(pts
 			(xy 163.83 140.97) (xy 163.83 138.43)
 		)
 		(stroke
@@ -5434,16 +5677,6 @@
 			(type default)
 		)
 		(uuid "83fd3f7c-d902-4a10-92ae-81cfc1827e0d")
-	)
-	(wire
-		(pts
-			(xy 161.29 123.19) (xy 161.29 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84345ee0-d199-46f4-b253-b0068dfbc811")
 	)
 	(wire
 		(pts
@@ -5627,16 +5860,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 120.65) (xy 173.99 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a32e060-2cf7-486b-9dab-19a9297e371d")
-	)
-	(wire
-		(pts
 			(xy 76.2 30.48) (xy 76.2 31.75)
 		)
 		(stroke
@@ -5787,16 +6010,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 132.08) (xy 166.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac9917af-e934-4f7a-8e76-4d50cbd3db21")
-	)
-	(wire
-		(pts
 			(xy 254 101.6) (xy 266.7 101.6)
 		)
 		(stroke
@@ -5824,6 +6037,16 @@
 			(type default)
 		)
 		(uuid "ad6a58fb-d969-4a2d-861f-84e545e5c1be")
+	)
+	(wire
+		(pts
+			(xy 88.9 27.94) (xy 88.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6f4833-5483-4a54-b0ac-eee1c49c47f7")
 	)
 	(wire
 		(pts
@@ -5887,16 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 129.54) (xy 163.83 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f3c8df-6762-4fe7-b7e7-0f96bd070076")
-	)
-	(wire
-		(pts
 			(xy 64.77 54.61) (xy 64.77 52.07)
 		)
 		(stroke
@@ -5944,16 +6157,6 @@
 			(type default)
 		)
 		(uuid "b533f618-1e86-49fd-a823-5296c37fc855")
-	)
-	(wire
-		(pts
-			(xy 158.75 123.19) (xy 158.75 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b660504b-6aeb-4cb3-ad00-968cf7fca8c1")
 	)
 	(wire
 		(pts
@@ -6117,16 +6320,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 125.73) (xy 173.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c5dc54-afea-46f2-9b04-8cd26c9e4fdc")
-	)
-	(wire
-		(pts
 			(xy 266.7 120.65) (xy 266.7 123.19)
 		)
 		(stroke
@@ -6144,16 +6337,6 @@
 			(type default)
 		)
 		(uuid "d6ca8252-6c02-4a03-8a8e-4c5d4b3d8fd7")
-	)
-	(wire
-		(pts
-			(xy 152.4 132.08) (xy 166.37 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d749fe8a-7795-4709-aa2c-a1dd6d318325")
 	)
 	(wire
 		(pts
@@ -6214,6 +6397,16 @@
 			(type default)
 		)
 		(uuid "dd65c6d1-24d7-4717-85ee-6e110cf321c9")
+	)
+	(wire
+		(pts
+			(xy 114.3 161.29) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa92913-37d8-422b-89c2-52968fa18ac3")
 	)
 	(wire
 		(pts
@@ -6347,6 +6540,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 130.81) (xy 152.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f046a5c6-26f7-4be7-a690-c67e41380eb9")
+	)
+	(wire
+		(pts
 			(xy 25.4 165.1) (xy 33.02 165.1)
 		)
 		(stroke
@@ -6394,16 +6597,6 @@
 			(type default)
 		)
 		(uuid "f3a5ed11-2f61-48ff-9c1b-e9a5847d09b2")
-	)
-	(wire
-		(pts
-			(xy 166.37 128.27) (xy 173.99 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f54074e9-0dc7-4348-974c-26144e6e96b5")
 	)
 	(wire
 		(pts
@@ -7177,6 +7370,85 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 114.3 161.29 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b85edbd-0290-42bc-b07d-de13372aac16")
+		(property "Reference" "TP19"
+			(at 113.03 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 113.03 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 109.22 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea944b55-9436-4039-a4da-402de7b1b89e")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -8666,6 +8938,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 127 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43571a09-50f4-44d9-abb8-3301c0f65db9")
+		(property "Reference" "TP17"
+			(at 128.27 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 128.27 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 132.08 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39b0c93b-6240-4b1d-ad5c-99f26e8ef44e")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Character:NHD-C0220BIZ")
 		(at 116.84 67.31 0)
 		(unit 1)
@@ -9655,6 +10005,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 82.55 187.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63249031-44b5-42a9-a5fa-f151d907a6b7")
+		(property "Reference" "TP20"
+			(at 81.28 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 81.28 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 77.47 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "135f705e-2b32-42c6-b7a8-bd458f102dad")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 25.4 111.76 0)
 		(unit 1)
@@ -9966,6 +10395,84 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 127 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73186a9b-5c6d-4ea0-8810-1926daea161a")
+		(property "Reference" "TP18"
+			(at 128.27 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 128.27 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 132.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed5c5ec0-d85a-4ac2-9861-4564b857df33")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -11359,6 +11866,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 88.9 27.94 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba4adb29-6a1d-49b6-99b8-66512799af2d")
+		(property "Reference" "TP16"
+			(at 87.63 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 87.63 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 83.82 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff97dfdf-c699-439d-bef5-719372d4b6f2")
+		)
+		(instances
+			(project "PiPICO_AudioHat"
+				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 127 0)
 		(unit 1)
@@ -11990,84 +12576,6 @@
 			(project "PiPICO_AudioHat"
 				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VADC")
-		(at 241.3 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d53941fc-5436-4d5f-a160-a3503363e1e4")
-		(property "Reference" "#PWR026"
-			(at 245.11 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3VADC"
-			(at 241.3 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
-			(at 241.3 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b858fb1f-737d-4a33-b651-8581eaf8d6ef")
-		)
-		(instances
-			(project "PiPICO_AudioHat"
-				(path "/bc59cea6-73fa-4700-bdb4-a6b6e0fbbe9a"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13374,7 +13882,7 @@
 			)
 		)
 		(pin "ADC_CH0" input
-			(at 152.4 127 0)
+			(at 152.4 123.19 0)
 			(uuid "4c3e9323-edcb-4870-ba74-fa8f965aafd1")
 			(effects
 				(font
@@ -13384,7 +13892,7 @@
 			)
 		)
 		(pin "ADC_CH1" input
-			(at 152.4 129.54 0)
+			(at 152.4 125.73 0)
 			(uuid "6945ea39-8a2f-46c6-a787-2bb6f7c1afca")
 			(effects
 				(font
@@ -13434,7 +13942,7 @@
 			)
 		)
 		(pin "ADC_CH2" input
-			(at 152.4 132.08 0)
+			(at 152.4 128.27 0)
 			(uuid "6e14ef23-33d3-4cad-abc2-c6a2f1b9de6a")
 			(effects
 				(font
@@ -13444,7 +13952,7 @@
 			)
 		)
 		(pin "ADC_INT" output
-			(at 152.4 123.19 0)
+			(at 152.4 130.81 0)
 			(uuid "7fc24a63-0cd7-4882-957a-c3feaeec9120")
 			(effects
 				(font
